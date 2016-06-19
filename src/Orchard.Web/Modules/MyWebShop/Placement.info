@@ -5,4 +5,5 @@
   <Place Parts_ShoppingCartWidget="Content:0" />
   <Place Parts_Customer_Edit="Content:0" />
   <Place Parts_Address_Edit="Content:0" />
+  <Place Parts_MyShopHeaderWidget="Content:0" />
 </Placement>

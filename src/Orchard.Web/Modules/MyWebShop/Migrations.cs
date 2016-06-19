@@ -244,10 +244,10 @@ namespace MyWebShop
         public int UpdateFrom11()
         {
 
-            ContentDefinitionManager.AlterTypeDefinition("ShoppingCartWidget", type => type
+            ContentDefinitionManager.AlterTypeDefinition("MyShopHeaderWidget", type => type
 
                           // Attach the "ShoppingCartWidgetPart"
-                          .WithPart("ShoppingCartWidgetPart")
+                          .WithPart("MyShopHeaderWidgetPart")
 
                           .WithPart("CommonPart")
                           // In order to turn this content type into a widget, it needs the WidgetPart
