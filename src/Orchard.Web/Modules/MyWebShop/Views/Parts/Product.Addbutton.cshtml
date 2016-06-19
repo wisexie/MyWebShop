@@ -1,0 +1,6 @@
+﻿@{
+    var productId = (int)Model.ProductId;
+}
+@using (Html.BeginFormAntiForgeryPost(Url.Action("Add", "ShoppingCart", new { id = productId, area = "MyWebShop" }))) {
+    <button type="submit">@T("添加都购物车")</button>
+}

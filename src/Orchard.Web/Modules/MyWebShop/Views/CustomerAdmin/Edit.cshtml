@@ -1,0 +1,7 @@
+﻿@{ Layout.Title = "Edit Customer"; }
+
+@using (Html.BeginFormAntiForgeryPost())
+{
+    @Html.ValidationSummary()
+    @Display(Model)
+}

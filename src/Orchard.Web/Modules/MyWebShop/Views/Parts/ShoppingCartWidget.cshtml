@@ -1,0 +1,54 @@
+﻿@using MyWebShop.Models
+@{
+
+    Style.Require("MyWebShop.ShoppingCartWidget");
+    Script.Require("MyWebShop.SuperSlide").AtHead();
+    Script.Require("MyWebShop.PageScroll").AtHead();
+
+
+    var itemCount = (int)Model.ItemCount;
+    var totalAmount = (decimal)Model.TotalAmount;
+    var customer = (CustomerPart)Model.Customer;
+}
+
+<div class="iBar iBar-fix" id="iBar">
+    <div class="ibar_main_panel" style="left: 0px;">
+        <ul class="ibar_mp_center">
+            <li class="mpbtn_login">
+                <div data-ibar="ibarUser">
+                    <a href="@Url.Action("Login", "Checkout", new { area = "MyWebShop" })"><s></s>登录</a>
+                    @if (customer != null)
+                    {
+                        <div class="ibar_login_box" style=" display:none;" data-ibar="ibarShowBox">
+                            <div class="avatar_box">
+                                <p class="avatar_imgbox"><img src="images/avatar_small.png" alt="头像" width="62" height="62"></p>
+                                <ul class="user_info">
+                                    <li>用户名：@customer.FirstName @customer.LastName</li>
+                                </ul>
+                            </div>
+                            <div class="login_btnbox"><a href="" class="login_order" target="_blank">我的订单</a><a href="" class="login_favorite" target="_blank">我的收藏</a></div>
+                            <s class="icon_arrow_white" id="icon_arrow_white"></s>
+                        </div>
+                    }
+                </div>
+            </li>
+            <li class="mpbtn_cart" style="left: 0px;">
+                <a href="@Url.Action("Index", "ShoppingCart", new { area = "MyWebShop" })" data-plugin="iBarCart" class="con_tab"><s></s><span class="text">购物车</span><span class="cart_num">@itemCount</span></a>
+            </li>
+            <li class="mpbtn_favorite">
+                <a href=""><s></s>我的心愿单</a>
+                <div class="mp_tooltip" style="display:none">我的心愿单<s class="icon_arrow_right_black"></s></div>
+            </li>
+        </ul>
+        <ul class="ibar_mp_bottom">
+            <li class="mpbtn_support">
+                <a href="" target="_blank"><s></s>客服中心</a>
+                <div class="mp_tooltip" style="display:none">客服中心<s class="icon_arrow_right_black"></s></div>
+            </li>
+            <li class="mpbtn_gotop" id="gotop">
+                <a href="" class="btn_gotop"><s></s>返回顶部</a>
+                <div class="mp_tooltip" style="display:none">返回顶部<s class="icon_arrow_right_black"></s></div>
+            </li>
+        </ul>
+    </div>
+</div>
