@@ -33,12 +33,14 @@ $(document).ready(function(){
 
 		    // console.log(ibarFunc)
 
-		    if (ibarFunc=="ibarUser") {
+		    if (ibarFunc == "ibarUser") {
+
 		        $(this).find("[data-ibar='ibarUser']").fadeIn(300);
 
 		    } else if (ibarFunc == "ibarShowBox") {
+
 		        $(this).find("[data-ibar='ibarShowBox']").fadeIn();
-		        $(this).find("[data-ibar='ibarShowBox']").animate({"left": "-92","opacity":"1"}, 300);
+		        $(this).find("[data-ibar='ibarShowBox']").stop().animate({"left": "-92","opacity":"1"}, 300);
 
 		    }
 
@@ -46,7 +48,7 @@ $(document).ready(function(){
 		function () {
 
 		    $(this).find("[data-ibar='ibarUser']").fadeOut(300);
-		    $(this).find("[data-ibar='ibarShowBox']").animate(
+		    $(this).find("[data-ibar='ibarShowBox']").stop().animate(
 
 				{"left": "-144px","opacity":"0"},
 
