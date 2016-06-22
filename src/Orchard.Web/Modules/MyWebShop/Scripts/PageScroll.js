@@ -79,7 +79,7 @@ $(document).ready(function(){
     });
 })
 
-jQuery(".hotBuyDh-box").slide({
+$(".hotBuyDh-box").slide({
 	
     mainCell:".hotBuyDh-bd ul",
 	
