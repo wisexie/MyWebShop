@@ -107,7 +107,7 @@
 
 .ibar_mp_bottom .mpbtn_gotop .current s, .ibar_mp_bottom .mpbtn_gotop a:hover s { background-position:-33px -201px }
 
-.ibar_main_panel .mp_tooltip { height:38px; line-height:38px; width:92px; position:absolute; z-index:2; top:0; background:#520062; color:#d8d8d8; text-align:center; opacity:0; display:none;left:-144px;  }
+.ibar_main_panel .mp_tooltip { height:38px; line-height:38px; width:92px; position:absolute; z-index:3; top:0; background:#520062; color:#d8d8d8; text-align:center;     opacity:0; display:none;left:-144px;  }
 
 .ibar_main_panel .mp_tooltip .icon_arrow_right_black { position:absolute; right:-5px; top:15px; width:5px; height:9px; background-position:0 -253px; overflow:hidden }
 
