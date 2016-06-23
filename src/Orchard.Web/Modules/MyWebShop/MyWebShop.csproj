@@ -91,7 +91,11 @@
     <Content Include="images\29.png" />
     <Content Include="images\5sfd4f.png" />
     <Content Include="images\avatar_small.png" />
+    <Content Include="images\cat_2014_02.jpg" />
+    <Content Include="images\cat_2014_04.jpg" />
+    <Content Include="images\cat_2014_06.jpg" />
     <Content Include="images\ibar_sprites.png" />
+    <Content Include="images\logo.png" />
     <Content Include="images\menu.webshop.png" />
     <Content Include="images\sprites.png" />
     <Content Include="Scripts\hd_js.js" />
