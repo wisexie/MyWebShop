@@ -166,12 +166,12 @@ article.form footer.commands ul button {
 .aLogo { display:block; width:111px; height:75px; float:left; top:36px; margin-top:-14px; }
 
 .aInpu1 { width:364px; height:33px; background:#fff; border:2px solid; padding-left:5px; font-size:15px; float:left; display:block; vertical-align: middle; }
-.aSearch { margin:8px 0 0 318px;float:left }
+.aSearch { margin:8px 0 0 257px;float:left }
 
 
 .aSub1 { display:block; width:43px; height:39px; border:1px solid; float:left; background-position:-101px -23px !important; cursor:pointer; vertical-align: middle; }
 
-.aBuyList { -webkit-backface-visibility: hidden; margin-top:20px; position:relative;  z-index:1; left:200px; }
+.aBuyList { -webkit-backface-visibility: hidden; margin-top:8px; position:relative;  z-index:1; float:right; margin-right:10px }
 
 .aBuyList .tan-list{ position: absolute; top:33px;right:-2px; z-index:22; background:#fff; }
 
