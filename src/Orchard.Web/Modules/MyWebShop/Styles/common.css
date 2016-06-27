@@ -134,3 +134,149 @@ article.form footer.commands ul:after {
 article.form footer.commands ul button {
     margin: 0;
 }
+
+/*-----------------------------------头部---------------------------------------------------------------------*/
+
+.header { width:100%; margin:0 auto; }
+
+.header-bar { height:32px; overflow:visible; background:#fbfcfd; border-bottom:1px solid #ccc; }
+
+.hTop-con { width:1090px; margin:0 auto; }
+
+.pullUl-l { height:13px; line-height:13px; }
+
+.pullUl-r { padding:9px 0; }
+
+.hTop-con li { float:left; height:13px; line-height:13px; }
+
+.hTop-con li a { padding:0 10px; }
+
+.header-top .mmt a { color:#ff3399; }
+
+#hover-tan { position:relative; }
+
+.pullUl-l li a { height:13px; display:inline-block; font-size:13px; line-height:15px; }
+
+.brandLogo { height:32px; }
+.icon_arrow
+.brandLogo li { float:left; height:32px; }
+
+.logoTit { width:100%; margin:10px auto 10px; }
+
+.aLogo { display:block; width:111px; height:75px; float:left; top:36px; margin-top:-14px; }
+
+.aInpu1 { width:364px; height:33px; background:#fff; border:2px solid; padding-left:5px; font-size:15px; float:left; display:block; vertical-align: middle; }
+.aSearch { margin:25px 0 0 318px }
+
+
+.aSub1 { display:block; width:43px; height:39px; border:1px solid; float:left; background-position:-101px -23px !important; cursor:pointer; vertical-align: middle; }
+
+.aBuyList { -webkit-backface-visibility: hidden; margin-top:20px; position:relative;  z-index:1; left:200px; }
+
+.aBuyList .tan-list{ position: absolute; top:33px;right:-2px; z-index:22; background:#fff; }
+
+.aBuyList .tan-list .tanLi-box{ width:260px; height:170px; padding:10px; border:3px solid;}
+
+
+.aBuyList .cart_link { display:block;border:2px solid; width:152px; height:35px; -webkit-backface-visibility: hidden; overflow:hidden; text-decoration: none; z-index:2; }
+
+.aBuyList .cart_link.on{ border-bottom:3px solid #fff;}
+
+
+.caBox1 { display:block; width:27px; height:22px; background-position:-149px -31px !important; margin:5px 0 0 8px; float:left }
+
+.caText { height: 13px; line-height: 13px; color: #666; overflow: hidden; float: left; padding-left: 6px; margin-top:12px; margin-left:10px; border-left:1px solid; font-size:13px; }
+
+.icon_arrow_right { background-position:-262px -41px !important; display:block; width:7px; height:4px; position:absolute; top:16px; right:7px; }
+
+.icon_arrow { display:block; position:absolute; background-position:-23px -27px !important; width:23px; height:29px; top:-20px; left:770px; color:#fff; line-height:29px; text-align:center; font-weight:bold; }
+
+.caNav { width:100%; background:#520062; margin:0 auto; }
+
+.hNav { height:35px; }
+
+#hTopNav ul li { height:35px; border-left:1px solid #6a097d; }
+
+#hTopNav ul li a { display:block; padding:0 44px; font-size:16px; color:#fff; line-height:35px; text-align:center; letter-spacing:1px; }
+
+#hTopNav ul li a:hover { background:#650079 url(../images/shanIcon.png) center 27px no-repeat; transition: top 0.3s ease 0s !important; }
+
+#hTopNav ul li a i { display:block; width:20px; height:17px; float:left; margin-right: 5px; margin-top: 10px; }
+
+#caInd { background-position:-22px -79px }
+
+#caBg { background-position:-53px -77px }
+
+#caTang { background-position:-97px -83px }
+
+#caGad { background-position:-143px -79px }
+
+#caGggu { background-position:-192px -79px }
+
+#caQike { background-position:-236px -79px }
+
+#caSph { background-position:-273px -77px }
+
+.iconFirst {
+}
+.iconSecond {
+}
+.iconThird {
+}
+#header ul,ul li, ol {
+   list-style: none outside none;
+   margin:0;
+   float:left;
+}
+ #header .clearfix:after { clear: both; content: "."; display: block; height: 0; line-height: 0; visibility: hidden;}
+#header .pullUl-r {
+    margin-left:246px;
+}
+#header .border-right{ border-right:1px solid #eaeaea !important}
+/*------------------------------------尾部--------------------------------------------------------------------*/
+.caFoot { width:100%; background:#f9f9f9; margin:0 auto; border-top:1px solid #ccc; }
+
+.foot_diz { margin:0 auto; height:115px; }
+
+.foot_diz p { font-size:13px; color:#999; text-align:center; line-height:22px; padding:50px 0 }
+
+/*其他部分*/
+.font-colo { color:#b43cca !important; }
+
+.border-colo { border-color:#520062 }
+
+.background-colo { background-color:#520062 !important; }
+
+.c-Icon { background:url(../images/Icon.png) no-repeat; }
+::-webkit-input-placeholder { /* WebKit browsers */
+ color:    #999;
+font-size:14px
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    #999;
+font-size:14px
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    #999;
+font-size:14px
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+ color:    #999;
+font-size:14px
+}
+/*浮动导航*/
+ .fixNav { position:fixed; top:85%; right:15px; z-index:99 }
+
+.fixNav-bd { overflow:hidden; width:84px; }
+
+.fixNav-bd a { display:block; width:84px; height:45px; opacity:0.5 }
+
+.fixNav-bd a:hover { opacity:1 }
+
+.fixNav-bd a:active { opacity:0.7 }
+
+.fixNavBd-t { background-position:-163px -111px !important; margin-bottom:3px; }
+
+.fixNavBd-g { background-position:-163px -160px !important }
+
+.fixNav { position: fixed; right: 10px; top: 85%; z-index: 99; }
