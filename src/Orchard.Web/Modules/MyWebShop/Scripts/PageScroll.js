@@ -20,7 +20,6 @@ window.onload = window.onscroll = function() {
 };
 
 
-
 $(document).ready(function(){
 
     //  $(".ibar_main_panel ul li").each(function() {
@@ -30,7 +29,7 @@ $(document).ready(function(){
 		function () {
 
 		    var ibarFunc = $(this).find("[data-ibar]").attr("data-ibar");
-
+            
 		    // console.log(ibarFunc)
 
 		    if (ibarFunc == "ibarUser") {
