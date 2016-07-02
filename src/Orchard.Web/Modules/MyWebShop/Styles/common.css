@@ -59,6 +59,8 @@ article.form
 article.form input[type="text"], input[type="password"], input[type="email"], input[type="tel"] 
 {
     width: 250px;
+
+
 }
  
 article.form fieldset{
