@@ -1,0 +1,51 @@
+﻿@using MyWebShop.Models
+@using Orchard.MediaLibrary.Models
+@{
+    Style.Require("MyWebShop.home");
+    Script.Require("MyWebShop.ShoppingCart");
+    var items = (IList<dynamic>)Model.Products;
+    var preGroup = "";
+}
+@for (var i = 0; i < items.Count; i++)
+{
+    var item = items[i];
+    var product = (ProductPart)item.ProductPart;
+    var imagePath = ((MediaPart)item.HomeImage).MediaUrl;
+    var title = item.Title ?? "";
+    var group = item.Group;
+    var isChange = preGroup != group;
+    preGroup = group;
+
+    <article class="container">
+        @if (isChange)
+        {
+            <section class="bChildren clearfix">
+               <span>@group</span>
+            </section>
+        }
+        <section class="secGoods clearfix">
+            <div class="goItmsCon fl">
+                <div class="aImg"><a title="" href="#"><img alt="" src="@imagePath" /></a></div>
+                <div class="goI-ff">
+                    <p class="h-17 size-14">
+                        <a href="#">
+                            @title
+                        </a>
+                    </p>
+                    <div class="aniu-aa clearfix">
+                        <dl class="fl anniuDl">
+                            <dd class="fl" style="color:#660066"><strong style="font-size:40px">@product.UnitPrice.ToString("c")</strong></dd>
+                        </dl>
+                        @using (Html.BeginFormAntiForgeryPost(Url.Action("Add", "ShoppingCart", new { id = product.Id, area = "MyWebShop" })))
+                        {
+                            <a class="fr wh-ty w5a4a fr-5" id="shoppingcartAdd" href="javascript:;"><i class="whQia c-Icon"></i>立即抢购 </a>
+                        }
+                    </div>
+                </div>
+                <div class="goItmsCon-fix c-Icon">
+                    <p>1</p>
+                </div>
+            </div>
+        </section>
+    </article>
+}

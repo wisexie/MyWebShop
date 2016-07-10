@@ -1,0 +1,171 @@
+﻿
+/*-------------------------------------------------内容部分---------------------------------------------------*/
+.conSec1 { width:100%; height:22px; margin:15px auto; }
+
+.secNav { width:1090px; margin:0 auto; }
+
+.secNav ul li { height:22px; border-right:1px solid #ccc; }
+
+.secNav ul li a { display:blockl; font-size:16px; color:#333333; padding:0 15px 0 40px; letter-spacing:1px }
+
+.secNicon { display:block; width:22px; height:22px; background-position:-196px -33px !important; float:right; margin:0 10px 0 40px; }
+
+.conBanner { width:100%; margin:0 auto 40px; }
+
+.secBnaner { overflow:hidden; }
+
+.secBnaner ul li { width:100%; height:508px; }
+
+.bigimg { background:url(../images/cat_2014_11.jpg) no-repeat; width:100%; display:block; height:508px; max-width: 100%; overflow:hidden; background-position: center center; }
+
+.conSurprise { width:100%; margin:30px auto; }
+
+.secSurprise { width:1090px; margin:0 auto; }
+
+.surWord { margin:30px auto; }
+
+.surWord p { text-align:center; line-height:40px }
+
+.secbig { font-size:40px; color:#000; font-weight:bold }
+
+.secMin { font-size:33px; color:#333; padding:10px 0 }
+
+.srcCoupon { width:969px; margin:30px auto; }
+
+.conuOne { width:441px; float:left; height:321px; }
+
+.conuA { display:block; width:403px; height:54px; text-align:center; line-height:54px; margin-top:20px; font-size:28px; color:#fff; font-weight:bold; background:#520062; border:1px solid #520062; border-radius:15px; }
+
+.conuA:hover { background:#6b157c }
+
+.bChildren { width:100%; margin:0 auto; }
+
+.chiBox { height:226px; margin:0 auto; }
+
+.chiBox span { display:block; width:100%; height:226px; background:url(../images/cat_2014_20.jpg) no-repeat; background-position: center center; }
+
+.secGoods { width:1090px; margin:30px auto; }
+
+.wonBox { height:226px; margin:0 auto; }
+
+.wonBox span { display:block; width:100%; height:226px; background:url(../images/cat_2014_30.jpg) no-repeat; background-position: center center; }
+
+.manBox { height:226px; margin:0 auto; }
+
+.manBox span { display:block; width:100%; height:226px; background:url(../images/cat_2014_32.jpg) no-repeat; background-position: center center; }
+
+.eldBox { height:226px; margin:0 auto; }
+
+.eldBox span { display:block; width:100%; height:226px; background:url(../images/cat_2014_34.jpg) no-repeat; background-position: center center; }
+
+.parBox { height:226px; margin:0 auto; }
+
+.parBox span { display:block; width:100%; height:226px; background:url(../images/cat_2014_36.jpg) no-repeat; background-position: center center; }
+
+.goItmsCon { width:338px; border:1px solid #ccc; padding:7px; margin-right:13px; transition: border-color 0.4s ease-in-out 0s; margin-bottom:20px; position:relative }
+
+.goI-ff { width:330px; overflow:hidden; margin-left:3px; }
+
+.goI-ff p { text-align:left; line-height:17px; width:100%; }
+
+.goItmsCon img { margin:0 auto; vertical-align:text-top }
+
+.luasex { width:100%; color:#666; padding:2px 0; }
+
+.size-14 { font-size:14px; color:#000; font-weight:bold; padding:15px 0 }
+
+.aniu-aa { width:100%; display:block; padding:35px 0 8px 0; }
+
+.aniu-aa dl dd, dt { line-height:14px; font-size:13px; }
+
+.aniu-aa dl dd { color:#3399ff }
+
+.faslij { width:26px; height:26px; background:url(../images/f4as8.png) no-repeat; display:block; border:1px solid #ccc; font-size:9px; color:#999; line-height:40px; text-align:center; background-position:center 3px }
+
+.faslij:hover { border-color:#c04fc0; color:#c04fc0; }
+
+.wh-ty { height:28px; display:block; line-height:28px; color:#fff; font-size:15px; }
+
+.w654a { width:72px; background:#999999; transition: all 0.4s ease 0s; }
+
+.w5a4a { width:101px; background:#660066; transition: all 0.4s ease 0s; }
+
+.fr-5 { margin-left:5px; }
+
+.goItmsCon:hover { border-color:#660066; transition: border-color 0.4s ease-in-out 0s; }
+
+.ml10 { margin-left:
+}
+
+.daoj-ti { width:100%; border-top:1px solid #ccc; padding:10px 0; font-size:13px; }
+
+.daoj-ti span { float:right; }
+
+.co-ff33 { color:#ff0066; font-weight:bold; }
+
+.ml13 { margin-left:13px; }
+
+.whQia { display:block; background-position:-65px -28px !important; width:20px; height:18px; float:left; margin:4px 5px 0 5px }
+
+.w5a4a:hover { background:#831883 }
+
+.goItmsCon-fix { position:absolute; top:-7px; left:15px; width:71px; height:70px; background-position:-22px -125px !important }
+
+.goItmsCon-fix p { font-size:24px; color:#fff; font-weight:bold; padding:35px 30px 30px 25px; }
+
+.fixNav-bd { overflow:hidden; width:84px; }
+
+.fixNav-bd a { display:block; width:84px; height:45px; opacity:0.5 }
+
+.fixNav-bd a:hover { opacity:1 }
+
+.fixNav-bd a:active { opacity:0.7 }
+
+.fixNavBd-t { background-position:-163px -111px !important; margin-bottom:3px; }
+
+.fixNavBd-g { background-position:-163px -160px !important }
+
+/*二级菜单*/
+.tan-menu { position:absolute; top:35px; left:-150px; }
+
+.menu-box { width:1090px; height:428px; background:#fff; box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2), inset 0 0 1px 0 rgba(255, 255, 255, 1); }
+
+.cart-tit { width: 1016px; margin: 0 auto; padding: 20px 0; overflow: hidden; zoom: 1; }
+
+.pageState { float: right; }
+
+#menu-caBg { }
+
+#menu-caBg.on .menu-caBg-aa { background: url("../images/shanIcon.png") no-repeat scroll center 27px #650079 !important; transition: top 0.3s ease 0s !important; }
+
+.pageState span { color: #86129d; font-size: 14px; font-weight: bold; }
+
+.cart-tit .cart-titLe .tit { font-size: 14px; float: left; display: inline; background: url(../images/subacticon.jpg) no-repeat left center; color: #555; margin-left: 10px; padding-left: 30px; zoom:1 }
+
+#titRi-pre, #titRi-ne { color:#000 !important; padding:0 10px !important; line-height:15px !important; font-size:14px !important; }
+
+#titRi-pre, #titRi-ne:hover { background-color:inherit !important; }
+
+.cart-bd { overflow: hidden; _zoom: 1; width: 1016px; margin: 0 auto; }
+
+.cart-bd .subAct_item { background: none repeat scroll 0 0 #f3f1ef; border: 1px solid #fff; color: #313433 !important; display: inline; float: left; height: 352px; position: relative; text-align: center; text-decoration: none; width: 230px; line-height: inherit; padding: 0; font-size: 12px; padding:0 !important }
+
+.cart-bd .subAct_item:hover { background-color:#f3f1ef !important; border:1px solid #610872; }
+
+.brand_logo_bg img { height: 40px; margin: 29px auto 0; width: 80px; }
+
+.cart-bd ul li { margin: 0 10px; }
+
+.brand_logo_bg { background: url("../images/blbg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); display: block; height: 98px; left: 50%; margin-left: -45px; position: absolute; text-align: center; top: 170px; width: 90px; }
+
+.subAct_item .tit { padding-top: 40px; color: #313433; text-align: center; font-size: 12px; line-height: inherit; }
+
+.subAct_item .dis { padding-top: 10px; }
+
+.subAct_item .dis em { color: #f6256a; font-size: 18px; margin: 0 2px; }
+
+.cart-bd ul li { height:355px !important; width:232px !important; border:1px solid #fff !important; }
+
+.cart-bd ul { width:3048px !important; }
+
+.tempWrap { width:1016px !important; position:relative; overflow:hidden }
