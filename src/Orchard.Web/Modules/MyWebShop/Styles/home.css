@@ -68,7 +68,7 @@
 
 .goI-ff p { text-align:left; line-height:17px; width:100%; }
 
-.goItmsCon img { margin:0 auto; vertical-align:text-top }
+.goItmsCon img { margin:0 auto; vertical-align:text-top;width:100%;height:auto }
 
 .luasex { width:100%; color:#666; padding:2px 0; }
 
