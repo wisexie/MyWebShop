@@ -12,6 +12,7 @@ using Orchard.Core.Title.Models;
 using MyWebShop.Services;
 using Orchard.ContentManagement.Records;
 using Orchard.MediaLibrary.Fields;
+using Orchard.Autoroute.Models;
 
 namespace MyWebShop.Controllers
 {
@@ -35,9 +36,10 @@ namespace MyWebShop.Controllers
                       ProductPart: p,
                       Title: _services.ContentManager.GetItemMetadata(p).DisplayText,
                       Group:p.As<ContentItem>().TypeDefinition.DisplayName,
-                      HomeImage: p.ContentItem.Parts.SelectMany(x => x.Fields.OfType<MediaLibraryPickerField>()).First().MediaParts.FirstOrDefault()
-                      ).OrderBy("Group")
-                      ).ToList()
+                      HomeImage: p.ContentItem.Parts.SelectMany(x => x.Fields.OfType<MediaLibraryPickerField>()).First().MediaParts.FirstOrDefault(),
+                      Link: p.ContentItem.As<AutoroutePart>().Path
+                      )
+                      ).OrderBy(x => x.Group).ToList()
                 );
 
             return new ShapeResult(this, shape);

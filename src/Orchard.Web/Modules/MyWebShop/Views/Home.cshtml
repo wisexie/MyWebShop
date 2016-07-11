@@ -14,10 +14,19 @@
     var title = item.Title ?? "";
     var group = item.Group;
     var isChange = preGroup != group;
+    var link = item.Link;
     preGroup = group;
-
-    <article class="container">
-        @if (isChange)
+    var nextChange=true;
+    if (i != items.Count - 1)
+    {
+        var nextItem = items[i+1];
+        nextChange = nextItem.Group != preGroup;
+    }
+    if (isChange)
+    { 
+        @:<article class="container">
+    }
+        if (isChange)
         {
             <section class="bChildren clearfix">
                <span>@group</span>
@@ -25,7 +34,7 @@
         }
         <section class="secGoods clearfix">
             <div class="goItmsCon fl">
-                <div class="aImg"><a title="" href="#"><img alt="" src="@imagePath" /></a></div>
+                <div class="aImg"><a title="" href="@link"><img alt="" src="@imagePath" /></a></div>
                 <div class="goI-ff">
                     <p class="h-17 size-14">
                         <a href="#">
@@ -47,5 +56,10 @@
                 </div>
             </div>
         </section>
-    </article>
+    if (nextChange)
+     { 
+        @:</article>
+     }
+
+      
 }
