@@ -38,7 +38,11 @@
 
 .conuA:hover { background:#6b157c }
 
-.bChildren { width:100%; margin:0 auto; }
+.bChildren { width:100%; margin:0 auto;height:45px;background:#520062 }
+
+.bChildren span{
+     line-height:45px; color:#fff;font-size:20px
+}
 
 .chiBox { height:226px; margin:0 auto; }
 
@@ -124,6 +128,10 @@
 .fixNavBd-t { background-position:-163px -111px !important; margin-bottom:3px; }
 
 .fixNavBd-g { background-position:-163px -160px !important }
+
+.zone-content article.container {
+    width:100%;height:auto;overflow:hidden;margin-top:25px
+}
 
 /*二级菜单*/
 .tan-menu { position:absolute; top:35px; left:-150px; }
