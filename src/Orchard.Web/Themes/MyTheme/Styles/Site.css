@@ -180,10 +180,10 @@ h6 {
     h4 img, h5 img, h6 img {
         margin: 0;
     }
-fl {
+.fl {
     float:left
 }
-fr {
+.fr {
     float:right
 }
 
