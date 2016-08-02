@@ -8,7 +8,7 @@
         $form.submit();
         e.preventDefault();
     });
-    $("#shoppingcartAdd").click(function (e) {
+    $(".shoppingcartAdd").click(function (e) {
         var $button = $(this);
         var $form = $button.parents("form");
 

@@ -16,50 +16,53 @@
     var isChange = preGroup != group;
     var link = item.Link;
     preGroup = group;
-    var nextChange=true;
+    var nextChange = true;
     if (i != items.Count - 1)
     {
-        var nextItem = items[i+1];
+        var nextItem = items[i + 1];
         nextChange = nextItem.Group != preGroup;
     }
     if (isChange)
-    { 
+    {
         @:<article class="container">
     }
-        if (isChange)
-        {
-            <section class="bChildren clearfix">
-               <span>@group</span>
-            </section>
-        }
-        <section class="secGoods clearfix">
-            <div class="goItmsCon fl">
-                <div class="aImg"><a title="" href="@link"><img alt="" src="@imagePath" /></a></div>
-                <div class="goI-ff">
-                    <p class="h-17 size-14">
-                        <a href="#">
-                            @title
-                        </a>
-                    </p>
-                    <div class="aniu-aa clearfix">
-                        <dl class="fl anniuDl">
-                            <dd class="fl" style="color:#660066"><strong style="font-size:40px">@product.UnitPrice.ToString("c")</strong></dd>
-                        </dl>
-                        @using (Html.BeginFormAntiForgeryPost(Url.Action("Add", "ShoppingCart", new { id = product.Id, area = "MyWebShop" })))
-                        {
-                            <a class="fr wh-ty w5a4a fr-5" id="shoppingcartAdd" href="javascript:;"><i class="whQia c-Icon"></i>立即抢购 </a>
-                        }
-                    </div>
-                </div>
-                <div class="goItmsCon-fix c-Icon">
-                    <p>1</p>
-                </div>
-            </div>
+    if (isChange)
+    {
+        <section class="bChildren clearfix">
+            <span>@group</span>
         </section>
-    if (nextChange)
-     { 
-        @:</article>
-     }
+    }
+    if (isChange)
+    {
+        @:<section class="secGoods clearfix">
+    }
+    <div class="goItmsCon fl">
+        <div class="aImg"><a title="" href="@link"><img alt="" src="@imagePath" /></a></div>
+        <div class="goI-ff">
+            <p class="h-17 size-14">
+                <a href="#">
+                    @title
+                </a>
+            </p>
+            <div class="aniu-aa clearfix">
+                <dl class="fl anniuDl">
+                    <dd class="fl" style="color:#660066"><strong style="font-size:40px">@product.UnitPrice.ToString("c")</strong></dd>
+                </dl>
+                @using (Html.BeginFormAntiForgeryPost(Url.Action("Add", "ShoppingCart", new { id = product.Id, area = "MyWebShop" })))
+                {
+                    <a class="fr wh-ty w5a4a fr-5 shoppingcartAdd" href="javascript:;"><i class="whQia c-Icon"></i>立即抢购 </a>
+                }
+            </div>
+        </div>
+        <div class="goItmsCon-fix c-Icon">
+            <p>1</p>
+        </div>
+    </div>
 
-      
+    if (nextChange)
+    {
+        @:</section>
+        @:</article>
+    }
+
 }
