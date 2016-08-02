@@ -48,7 +48,7 @@
 
 .chiBox span { display:block; width:100%; height:226px; background:url(../images/cat_2014_20.jpg) no-repeat; background-position: center center; }
 
-.secGoods { width:1090px; margin:30px auto; }
+.secGoods { width:1090px; margin:30px auto;overflow:hidden }
 
 .wonBox { height:226px; margin:0 auto; }
 
