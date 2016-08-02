@@ -67,6 +67,7 @@
 .parBox span { display:block; width:100%; height:226px; background:url(../images/cat_2014_36.jpg) no-repeat; background-position: center center; }
 
 .goItmsCon { width:338px; border:1px solid #ccc; padding:7px; margin-right:13px; transition: border-color 0.4s ease-in-out 0s; margin-bottom:20px; position:relative }
+.goItmsCon:nth-child(3n) {margin-right:0    };
 
 .goI-ff { width:330px; overflow:hidden; margin-left:3px; }
 
