@@ -1,0 +1,32 @@
+#. "Name"
+#. "Orchard.Forms.Name"
+#: "~/Modules/Orchard.Forms/Module.txt"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Forms"
+msgstr "表单"
+
+#. "Author"
+#: "~/Modules/Orchard.Forms/Module.txt"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard 团队"
+
+#. "Website"
+#: "~/Modules/Orchard.Forms/Module.txt"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "https://github.com/OrchardCMS/Orchard"
+msgstr "https://github.com/OrchardCMS/Orchard"
+
+#. "Description"
+#. "Orchard.Forms.Description"
+#: "~/Modules/Orchard.Forms/Module.txt"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Provides a system to publish and alter html forms."
+msgstr "提供用于发布和修改 HTML 表单的系统。"
+
+#. "Orchard.Forms.Category"
+#: "~/Modules/Orchard.Forms/Module.txt"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Developer"
+msgstr "开发者"
+

@@ -1,0 +1,50 @@
+#. "Name"
+#: "~/Themes/TheThemeMachine/Theme.txt"
+msgctxt "~/Themes/TheThemeMachine/Theme.txt"
+msgid "The Theme Machine"
+msgstr "出厂主题"
+
+#. "Author"
+#: "~/Themes/TheThemeMachine/Theme.txt"
+msgctxt "~/Themes/TheThemeMachine/Theme.txt"
+msgid "jowall, mibach, loudej, heskew"
+msgstr "jowall, mibach, loudej, heskew"
+
+#. "Description"
+#: "~/Themes/TheThemeMachine/Theme.txt"
+msgctxt "~/Themes/TheThemeMachine/Theme.txt"
+msgid "Orchard Theme Machine is a flexible multi-zone theme that provides a solid foundation to build your site. It features 20 collapsible widget zones and is flexible enough to cover a wide range of layouts."
+msgstr "Orchard出厂主题是一个灵活的多区域主题，为你的网站提供稳固的基础。它具有20个可修改的部件区域，并具有覆盖多种设计的灵活性。"
+
+#. "Tags"
+#: "~/Themes/TheThemeMachine/Theme.txt"
+msgctxt "~/Themes/TheThemeMachine/Theme.txt"
+msgid "Awesome"
+msgstr "精彩"
+
+#. "Website"
+#: "~/Themes/TheThemeMachine/Theme.txt"
+msgctxt "~/Themes/TheThemeMachine/Theme.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: "~/Themes/TheThemeMachine/Views/BadgeOfHonor.cshtml"
+msgctxt "~/Themes/TheThemeMachine/Views/BadgeOfHonor.cshtml"
+msgid "Powered by <a href=\"{0}\" target=\"_blank\">Orchard</a>"
+msgstr "由 <a href=\"{0}\"target=\"_blank\">Orchard</a> 提供技术支持"
+
+#: "~/Themes/TheThemeMachine/Views/BadgeOfHonor.cshtml"
+msgctxt "~/Themes/TheThemeMachine/Views/BadgeOfHonor.cshtml"
+msgid "&#169; The Theme Machine {0}."
+msgstr "&#169; The Theme Machine {0}."
+
+#: "~/Themes/TheThemeMachine/Views/Pager.cshtml"
+msgctxt "~/Themes/TheThemeMachine/Views/Pager.cshtml"
+msgid "Newer"
+msgstr "较新"
+
+#: "~/Themes/TheThemeMachine/Views/Pager.cshtml"
+msgctxt "~/Themes/TheThemeMachine/Views/Pager.cshtml"
+msgid "Older"
+msgstr "较旧"
+

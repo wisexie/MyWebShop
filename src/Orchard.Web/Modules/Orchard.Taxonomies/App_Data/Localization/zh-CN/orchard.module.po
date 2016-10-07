@@ -1,0 +1,727 @@
+#. "Name"
+#. "Orchard.Taxonomies.Name"
+#: "~/Modules/Orchard.Taxonomies/Module.txt"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "Taxonomies"
+msgstr "分类方法"
+
+#. "Author"
+#: "~/Modules/Orchard.Taxonomies/Module.txt"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#. "Website"
+#: "~/Modules/Orchard.Taxonomies/Module.txt"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#: "~/Modules/Orchard.Taxonomies/Module.txt"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "The taxonomy module is providing custom categorization of arbitrary content types."
+msgstr "分类法模块提供任意类型内容的定制归类功能。"
+
+#. "Orchard.Taxonomies.Description"
+#: "~/Modules/Orchard.Taxonomies/Module.txt"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "Categorize a content item."
+msgstr "分类内容项。"
+
+#. "Orchard.Taxonomies.Category"
+#: "~/Modules/Orchard.Taxonomies/Module.txt"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "Content"
+msgstr "内容"
+
+#: "Orchard.Taxonomies.AdminMenu"
+msgctxt "Orchard.Taxonomies.AdminMenu"
+msgid "Taxonomies"
+msgstr "分类方法"
+
+#: "Orchard.Taxonomies.AdminMenu"
+msgctxt "Orchard.Taxonomies.AdminMenu"
+msgid "Manage Taxonomies"
+msgstr "管理分类法"
+
+#. "Couldn't delete taxonomy"
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "Couldn't delete taxonomy"
+msgstr "无法删除分类方法"
+
+#. "Couldn't import terms"
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "Couldn't import terms"
+msgstr "无法导入条目"
+
+#: "Orchard.Taxonomies.Controllers.AdminController"
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "The term {0} already exists at this level"
+msgstr "此级别已存在条目 {0}"
+
+#: "Orchard.Taxonomies.Controllers.AdminController"
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "The terms have been imported successfully."
+msgstr "条目已成功导入"
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "No action selected."
+msgstr ""
+
+#. "Couldn't delete term"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't delete term"
+msgstr "不能删除条目"
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "No terms selected."
+msgstr ""
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't move terms"
+msgstr "不能移动条目"
+
+#. "Not allowed to create terms"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to create terms"
+msgstr "不允许创建条目"
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to select terms"
+msgstr "不允许选择条目"
+
+#. "Not allowed to move terms"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to move terms"
+msgstr "不允许移动条目"
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't create term"
+msgstr "无法创建条目"
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "The {0} term has been created."
+msgstr "条目 {0} 已创建。"
+
+#. "Not allowed to manage terms"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to manage terms"
+msgstr "不允许管理条目"
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't edit term"
+msgstr ""
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Term information updated"
+msgstr "条目信息已更新"
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "{0} term has been removed."
+msgstr ""
+
+#: "Orchard.Taxonomies.Controllers.TermAdminController"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "{0} terms have been removed."
+msgstr ""
+
+#: "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgid "You're not allowed to create new terms for this taxonomy"
+msgstr "你不允许在这种分类下创建新的条目"
+
+#: "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgid "The {0} term has been created."
+msgstr "条目 {0} 已创建。"
+
+#: "Orchard.Taxonomies.Drivers.TaxonomyNavigationPartDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyNavigationPartDriver"
+msgid "The levels to display must be a positive number"
+msgstr "要显示的级别必须为正数"
+
+#: "Orchard.Taxonomies.Drivers.TaxonomyNavigationPartDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyNavigationPartDriver"
+msgid "Unknown taxonomy: {0}"
+msgstr "未知的分类: {0}"
+
+#: "Orchard.Taxonomies.Drivers.TaxonomyNavigationPartDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyNavigationPartDriver"
+msgid "Unknown term: {0}"
+msgstr "未知条目: {0}"
+
+#: "Orchard.Taxonomies.Drivers.TaxonomyPartDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyPartDriver"
+msgid "A taxonomy with the same name already exists"
+msgstr "存在重名的分类方法"
+
+#: "Orchard.Taxonomies.Drivers.TermPartDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TermPartDriver"
+msgid "The term {0} already exists at this level"
+msgstr "此级别已存在条目 {0}"
+
+#: "Orchard.Taxonomies.Drivers.TermPartDriver"
+msgctxt "Orchard.Taxonomies.Drivers.TermPartDriver"
+msgid "Unknown taxonomy: {0}"
+msgstr "未知的分类: {0}"
+
+#. "Taxonomy"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Taxonomy"
+msgstr "分类"
+
+#: "Orchard.Taxonomies.Projections.TermsFilter"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Has Terms"
+msgstr "包含条目"
+
+#: "Orchard.Taxonomies.Projections.TermsFilter"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Categorized content items"
+msgstr "已归类的内容项目"
+
+#: "Orchard.Taxonomies.Projections.TermsFilter"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Any term"
+msgstr "任何条目"
+
+#: "Orchard.Taxonomies.Projections.TermsFilter"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Categorized with one of {0}"
+msgstr "与 {0} 之一归类"
+
+#: "Orchard.Taxonomies.Projections.TermsFilter"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Categorized with all of {0}"
+msgstr "与所有的 {0}归类"
+
+#: "Orchard.Taxonomies.Projections.TermsFilter"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Categorized with {0}"
+msgstr "与 {0}归类"
+
+#: "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Terms"
+msgstr "条目"
+
+#: "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Select some terms."
+msgstr "选择一些条目。"
+
+#: "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Is one of"
+msgstr "是其中之一的"
+
+#: "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Is all of"
+msgstr "是所有的"
+
+#: "Orchard.Taxonomies.Services.TaxonomyService"
+msgctxt "Orchard.Taxonomies.Services.TaxonomyService"
+msgid "The term {0} already exists in this taxonomy"
+msgstr "条目{0}在此分类方法中已存在"
+
+#: "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "Taxonomy Field"
+msgstr "分类字段"
+
+#: "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "Tokens for Taxonomy Fields"
+msgstr "分类字段的标记"
+
+#. "Terms"
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "Terms"
+msgstr "条目"
+
+#: "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "The terms (Content) associated with field."
+msgstr "与字段相关的条目（内容）。"
+
+#: "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "A term by its index. Can be chained with Content tokens."
+msgstr "其索引的条目。可以和内容标记链接。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Create.cshtml"
+msgid "Create New Taxonomy"
+msgstr "创建新分类方法"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Edit.cshtml"
+msgid "Taxonomy Properties"
+msgstr "分类方法属性"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Import Terms for {0}"
+msgstr "为{0}导入条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "One term per line, followed by a semi-colon and the slug"
+msgstr "每行一个条目，最后加分号和slug"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Hierarchies are defined using tabs (handled in this editor zone)"
+msgstr "层级结构用Tab符定义（在此编辑区中处理）"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "e.g,"
+msgstr "如，"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Red; red"
+msgstr "Red; red"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Blue; blue"
+msgstr "Blue; blue"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Light Blue; light-blue"
+msgstr "Light Blue; light-blue"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Import"
+msgstr "导入"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Manage Taxonomies"
+msgstr "管理分类方法"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "操作："
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Choose action..."
+msgstr "选择操作..."
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Remove"
+msgstr "移除"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Add a taxonomy"
+msgstr "添加一个分类法"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "This is a table of the taxonomies in your application"
+msgstr "这是你应用程序中的分类方法列表"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Terms"
+msgstr "条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Import"
+msgstr "导入"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Select a taxonomy"
+msgstr "选择一个分类方法"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Choose a taxonomy ..."
+msgstr "选择一个分类方法..."
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Restrictions"
+msgstr "限制"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Restrict selectable elements to leaves (parent / child terms) only"
+msgstr "只限制可选择的元素到叶子 （父 / 子条目）"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "A leaf is the last descendant in a parent/child hierarchy"
+msgstr "叶子是指树状结构的末端节点"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Allow only one term to be selected"
+msgstr "只允许选择一个条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Required"
+msgstr "必填"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Check if the field is required."
+msgstr "选中表示该字段必填。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Autocomplete"
+msgstr "自动完成"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Enable Autocomplete"
+msgstr "启用自动完成"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Allow new terms to be created"
+msgstr "允许新的条目被创建"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "The help text is written under the field when authors are editing the content item."
+msgstr "当作者编辑内容项目时显示于字段下的帮助文本。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgid "Child display type"
+msgstr "子显示类型"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgid "The display type to apply to child items when displaying the details of this taxonomy term."
+msgstr "当显示分类项的详细视图时，应用到子项上的显示类型。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgid "Pagination"
+msgstr "分页"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgid "Override the default page size"
+msgstr "覆盖默认页大小"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgid "Number of items per page"
+msgstr "每页的项目数量"
+
+#: "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgid "Determines the number of items that are shown per page."
+msgstr "确定每页显示的项目数。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "Enter a single term. Hit <i>tab</i> or <i>enter</i> to apply the term."
+msgstr "输入一个单一的条目。敲<i>tab</i> 或 <i>enter</i>键去应用一个条目。"
+
+#. "This taxonomy does not allow you to create new terms."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "This taxonomy does not allow you to create new terms."
+msgstr "这种分类不允许您创建新的条目。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "Enter multiple terms. Hit <i>tab</i>, <i>enter</i> or <i>,</i> to add multiple terms."
+msgstr "输入多个条目。若要添加多个条目则敲 <i>tab</i> ，<i>enter</i> 或 <i>,</i> 。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "There are no terms defined for {0} yet."
+msgstr "{0}尚无定义的条目。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "Create some terms"
+msgstr "创建一些条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgid "You haven't specified a taxonomy for {0}"
+msgstr ""
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgid "There are no terms defined for {0} yet."
+msgstr "{0}尚无定义的条目。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgid "Create some terms"
+msgstr "创建一些条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Taxonomy"
+msgstr "分类"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Select the taxonomy whose terms will be rendered in the menu."
+msgstr "选择将要在菜单中呈现其条目的分类。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Root Term"
+msgstr "根条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "- Parent Taxonomy -"
+msgstr "-父分类-"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Select the root term to display"
+msgstr "选择要显示的根条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Display top level menu item"
+msgstr "显示顶级菜单项"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "When checked, the selected term to display will be rendered as a root element in the menu."
+msgstr "选中时，选定的显示条目将作为一个菜单中的根元素呈现。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Levels to display"
+msgstr "显示层级"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "The number of levels to display in the hierarchy. 0 to display all levels."
+msgstr "显示结构层次中的层级数。“0”表示显示所有层级。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Hide empty entries"
+msgstr "隐藏空条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "When checked, any term which has no content item associated to it won't be rendered."
+msgstr "被选中时，任何没有内容项关联到它的条目将不会被呈现。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Display content count"
+msgstr "显示内容计数"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "When checked, the number of content items is rendered following the term name."
+msgstr "选中时，内容条目的数量将会呈现在条目名称的下面。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "Selectable"
+msgstr "可选择的"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "Uncheck if users should not be able to select this term"
+msgstr "如用户不能选择此条目，不选中"
+
+#: "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "If specified, it will be used to sort terms at the same level"
+msgstr "如被指定，将会在相同等级中对条目排序"
+
+#: "~/Modules/Orchard.Taxonomies/Views/Items/Content-Term.Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Items/Content-Term.Edit.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Create.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Create.cshtml"
+msgid "Create New Term"
+msgstr "创建新条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Edit.cshtml"
+msgid "Term Properties"
+msgstr "条目属性"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Manage terms for {0}"
+msgstr "管理条目为 {0}"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Actions:"
+msgstr "操作："
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Choose action..."
+msgstr "选择操作..."
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Remove"
+msgstr "移除"
+
+#. "Move"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Move"
+msgstr "移动"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Add a term"
+msgstr "添加一个条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "This is a table of the terms in your application"
+msgstr "这是你的程序中的条目表格"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Merging terms"
+msgstr "合并条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "You are going to merge the terms '{0}' into the term you select below. Please be aware that this term will then be deleted."
+msgstr "你将合并条目 '{0}' 到你下面选择的一个条目，请务必注意这个条目之后将被删除。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Parent term"
+msgstr "上级条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Republish content"
+msgstr "重新发布内容"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "This will republish all content that is currently published. It will not publish out content if the latest version is in draft."
+msgstr "这将重新发布目前发布的所有内容。如果最新版本是草案(draft)，它不会发布出内容。"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Select"
+msgstr "选择"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "Parent term"
+msgstr "上级条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "- None -"
+msgstr "-无-"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "By selecting a parent term you can create hierarchies"
+msgstr "你可以通过选择上级条目创建层次结构"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "Select"
+msgstr "选择"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "Parent term"
+msgstr "上级条目"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "- None -"
+msgstr "-无-"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "By selecting a parent term you can create hierarchies"
+msgstr "你可以通过选择上级条目创建新等级层次结构"
+
+#: "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "Select"
+msgstr "选择"
+

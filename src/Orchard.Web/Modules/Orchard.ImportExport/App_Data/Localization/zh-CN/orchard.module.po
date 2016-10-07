@@ -1,0 +1,292 @@
+#. "Name"
+#. "Orchard.ImportExport.Name"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "Import Export"
+msgstr "导入导出"
+
+#. "Author"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#. "Website"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "Provides content item data import and export capability."
+msgstr "提供内容项目数据导入导出能力。"
+
+#. "Orchard.ImportExport.Description"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "Imports and exports content item data."
+msgstr "导入导出内容条目数据。"
+
+#. "Orchard.ImportExport.Category"
+#: "~/Modules/Orchard.ImportExport/Module.txt"
+msgctxt "~/Modules/Orchard.ImportExport/Module.txt"
+msgid "Content"
+msgstr "内容"
+
+#: "Orchard.ImportExport.AdminMenu"
+msgctxt "Orchard.ImportExport.AdminMenu"
+msgid "Import/Export"
+msgstr "导入/导出"
+
+#: "Orchard.ImportExport.AdminMenu"
+msgctxt "Orchard.ImportExport.AdminMenu"
+msgid "Import"
+msgstr "导入"
+
+#: "Orchard.ImportExport.AdminMenu"
+msgctxt "Orchard.ImportExport.AdminMenu"
+msgid "Export"
+msgstr "导出"
+
+#: "Orchard.ImportExport.Commands.ImportExportCommands"
+msgctxt "Orchard.ImportExport.Commands.ImportExportCommands"
+msgid "Invalid file path"
+msgstr "无效的文件路径"
+
+#: "Orchard.ImportExport.Commands.ImportExportCommands"
+msgctxt "Orchard.ImportExport.Commands.ImportExportCommands"
+msgid "File not found."
+msgstr "找不到文件。"
+
+#: "Orchard.ImportExport.Commands.ImportExportCommands"
+msgctxt "Orchard.ImportExport.Commands.ImportExportCommands"
+msgid "Import running..."
+msgstr "导入正在运行..."
+
+#: "Orchard.ImportExport.Commands.ImportExportCommands"
+msgctxt "Orchard.ImportExport.Commands.ImportExportCommands"
+msgid "Export starting..."
+msgstr "导出开始..."
+
+#: "Orchard.ImportExport.Commands.ImportExportCommands"
+msgctxt "Orchard.ImportExport.Commands.ImportExportCommands"
+msgid "Export completed at {0}"
+msgstr ""
+
+#: "Orchard.ImportExport.Controllers.AdminController"
+msgctxt "Orchard.ImportExport.Controllers.AdminController"
+msgid "Not allowed to import."
+msgstr "没有导入权限。"
+
+#: "Orchard.ImportExport.Controllers.AdminController"
+msgctxt "Orchard.ImportExport.Controllers.AdminController"
+msgid "Not allowed to export."
+msgstr "没有导出权限。"
+
+#: "Orchard.ImportExport.Providers.ExportActions.BuildRecipeAction"
+msgctxt "Orchard.ImportExport.Providers.ExportActions.BuildRecipeAction"
+msgid "No configuration file was specified."
+msgstr "未指定配置文件。"
+
+#: "Orchard.ImportExport.Providers.ImportActions.ExecuteRecipeAction"
+msgctxt "Orchard.ImportExport.Providers.ImportActions.ExecuteRecipeAction"
+msgid "No recipe file selected."
+msgstr "未选择配方文件。"
+
+#: "Orchard.ImportExport.Providers.ImportActions.ExecuteRecipeAction"
+msgctxt "Orchard.ImportExport.Providers.ImportActions.ExecuteRecipeAction"
+msgid "Please specify a new password for the super user."
+msgstr "请为超级用户指定新密码。"
+
+#: "Orchard.ImportExport.Providers.ImportActions.ExecuteRecipeAction"
+msgctxt "Orchard.ImportExport.Providers.ImportActions.ExecuteRecipeAction"
+msgid "The passwords do not match."
+msgstr "密码不匹配。"
+
+#: "Orchard.ImportExport.Providers.ImportActions.ExecuteRecipeAction"
+msgctxt "Orchard.ImportExport.Providers.ImportActions.ExecuteRecipeAction"
+msgid "The recipe contained no steps. No work was scheduled."
+msgstr "配方文件没有包含任何步骤。未安排工作任务。"
+
+#: "Orchard.ImportExport.Recipes.Builders.CustomStepsStep"
+msgctxt "Orchard.ImportExport.Recipes.Builders.CustomStepsStep"
+msgid "Additional Export Steps"
+msgstr "附加导出步骤"
+
+#: "Orchard.ImportExport.Recipes.Builders.CustomStepsStep"
+msgctxt "Orchard.ImportExport.Recipes.Builders.CustomStepsStep"
+msgid "Exports additional items."
+msgstr "导出附加条目。"
+
+#. "Export"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Export.cshtml"
+msgid "Export"
+msgstr "输出"
+
+#. "Import"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/Import.cshtml"
+msgid "Import"
+msgstr "导入"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Import Result"
+msgstr "导入结果"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "The recipe file was successfully imported."
+msgstr "配方文件已成功导出。"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "The recipe file import failed. Check the logs (recipe execution ID <strong>{0}</strong>) for more information."
+msgstr "配方文件导入失败。更多信息请查看日志（配方执行 ID <strong>{0}</strong>）。"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Recipe steps"
+msgstr "配方步骤"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Recipe"
+msgstr "配方"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Step"
+msgstr "步骤"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Executed"
+msgstr ""
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Result"
+msgstr "结果"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Message"
+msgstr "消息"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Untitled"
+msgstr "无标题"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Successful"
+msgstr "成功"
+
+#: "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/Admin/ImportResult.cshtml"
+msgid "Failed"
+msgstr "失败"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/BuilderSteps/CustomSteps.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/BuilderSteps/CustomSteps.cshtml"
+msgid "Choose the custom steps to execute in the export file:"
+msgstr "选择导出文件中包含的要执行的自定义步骤："
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/BuilderSteps/CustomSteps.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/BuilderSteps/CustomSteps.cshtml"
+msgid "There are no additional export steps available."
+msgstr "没有可用的附加导出步骤。"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgid "Select the recipe steps to execute"
+msgstr "选择配方要执行的步骤"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgid "Upload a configuration file with recipe steps to execute"
+msgstr "上传一个包含配方步骤的配置文件。"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgid "Export Options"
+msgstr "导出选项"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgid "Configuration File"
+msgstr "配置文件"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ExportActions/BuildRecipe.cshtml"
+msgid "Browse..."
+msgstr "浏览……"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Import the uploaded recipe"
+msgstr "导入已上传的配方文件"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Reset the site and run setup using the uploaded recipe"
+msgstr "重置该站点并使用上载的配方文件执行安装"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Choose a recipe file to import. Please consider {0} or backing up your data first."
+msgstr "选择要导入的配方文件。请考虑 {0} 或先备份你的数据。"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "exporting"
+msgstr "导出中"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Recipe File"
+msgstr "配方文件："
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Browse..."
+msgstr "浏览……"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Import Options"
+msgstr "导入选项"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Select whether you want to import the selected recipe into the current site or if you want to do a full site reset first."
+msgstr ""
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "This will delete your database tables. Please consider creating a backup first."
+msgstr "此操作将删除你的数据库表。请考虑先做个备份。"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Site Owner Password"
+msgstr "网站属主密码"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Specify a new password for the site owner in case your recipe doesn't contain the current site owner."
+msgstr "请为网站属主指定一个新密码以备配方文件不包含当前网站属主的信息。"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Confirm Site Owner Password"
+msgstr "确认网站属主新密码"
+
+#: "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgctxt "~/Modules/Orchard.ImportExport/Views/EditorTemplates/ImportActions/ExecuteRecipe.cshtml"
+msgid "Repeat the password to make sure you didn't mistype anything."
+msgstr "重复输入密码已确保你没有输入错误。"
+

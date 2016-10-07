@@ -1,0 +1,326 @@
+#. "Name"
+#: "~/Modules/Orchard.Recipes/Module.txt"
+msgctxt "~/Modules/Orchard.Recipes/Module.txt"
+msgid "Recipes"
+msgstr "安装配置"
+
+#. "Author"
+#: "~/Modules/Orchard.Recipes/Module.txt"
+msgctxt "~/Modules/Orchard.Recipes/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#. "Website"
+#: "~/Modules/Orchard.Recipes/Module.txt"
+msgctxt "~/Modules/Orchard.Recipes/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#: "~/Modules/Orchard.Recipes/Module.txt"
+msgctxt "~/Modules/Orchard.Recipes/Module.txt"
+msgid "Provides Orchard Recipes."
+msgstr "提供Orchard方法。"
+
+#. "Could not discover recipes because extension '{0}' was not found."
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Could not discover recipes because extension '{0}' was not found."
+msgstr "由于“{0}”模块未找到，因此无法找到配方。"
+
+#. "No recipes found for extension '{0}'."
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "No recipes found for extension '{0}'."
+msgstr "在扩展“{0}”中找不到配方。"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "List of available recipes"
+msgstr "可用方法列表"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "--------------------------"
+msgstr "--------------------------"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Recipe: {0}"
+msgstr "方法：{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Version:     {0}"
+msgstr "版本：{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Tags:        {0}"
+msgstr "标签：{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Description: {0}"
+msgstr "说明：{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Author:      {0}"
+msgstr "作者：{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Website:     {0}"
+msgstr "网站：{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "No recipe with name '{0}' was found in extension '{1}'."
+msgstr "名为“{0}”的配方在扩展“{1}”中找不到。"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Recipe successfully scheduled with execution ID {0}. Use the 'recipes result' command to check the result of the execution."
+msgstr "配方已成功安排后台执行（执行 ID：“{0}”），使用“recipes result”命令查看执行结果。"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "Result of recipe execution:"
+msgstr "配方执行的结果︰"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "---------------------------"
+msgstr "---------------------------"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Execution ID: {0}"
+msgstr "执行 ID: {0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Completed:    {0}"
+msgstr "已完成︰{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Successful:   {0}"
+msgstr "成功︰{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "  Step: {0} ({1})"
+msgstr "步骤：{0}（{1}）"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "    Completed:     {0}"
+msgstr "已完成︰{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "    Successful:    {0}"
+msgstr "成功︰{0}"
+
+#: "Orchard.Recipes.Commands.RecipesCommands"
+msgctxt "Orchard.Recipes.Commands.RecipesCommands"
+msgid "    Error message: {0}"
+msgstr "错误信息︰{0}"
+
+#: "Orchard.Recipes.Providers.Builders.ContentStep"
+msgctxt "Orchard.Recipes.Providers.Builders.ContentStep"
+msgid "Content and Content Definition"
+msgstr "内容和内容定义"
+
+#: "Orchard.Recipes.Providers.Builders.ContentStep"
+msgctxt "Orchard.Recipes.Providers.Builders.ContentStep"
+msgid "Exports content items and content item definitions."
+msgstr "导出内容条目和内容条目定义。"
+
+#: "Orchard.Recipes.Providers.Builders.RecipeMetadataStep"
+msgctxt "Orchard.Recipes.Providers.Builders.RecipeMetadataStep"
+msgid "Recipe Metadata"
+msgstr "配方元数据"
+
+#: "Orchard.Recipes.Providers.Builders.RecipeMetadataStep"
+msgctxt "Orchard.Recipes.Providers.Builders.RecipeMetadataStep"
+msgid "Provides additional information about the recipe."
+msgstr "提供该配方的附加信息。"
+
+#: "Orchard.Recipes.Providers.Builders.SettingsStep"
+msgctxt "Orchard.Recipes.Providers.Builders.SettingsStep"
+msgid "Settings"
+msgstr "设置"
+
+#: "Orchard.Recipes.Providers.Builders.SettingsStep"
+msgctxt "Orchard.Recipes.Providers.Builders.SettingsStep"
+msgid "Exports settings. Please verify that you are not exporting confidential information, such as passwords or application keys."
+msgstr "导出设置。请确保不要导出机密信息，如密码或应用程序密钥。"
+
+#: "Orchard.Recipes.Providers.Executors.ContentStep"
+msgctxt "Orchard.Recipes.Providers.Executors.ContentStep"
+msgid "Content"
+msgstr "内容"
+
+#: "Orchard.Recipes.Providers.Executors.ContentStep"
+msgctxt "Orchard.Recipes.Providers.Executors.ContentStep"
+msgid "Provides additional configuration for the Content recipe step."
+msgstr ""
+
+#: "Orchard.Recipes.Providers.Executors.RecipesStep"
+msgctxt "Orchard.Recipes.Providers.Executors.RecipesStep"
+msgid "A recipe with the same name has been detected for extension \"{0}\". Please make sure recipes are uniquely named."
+msgstr ""
+
+#: "Orchard.Recipes.Providers.Executors.RemoveContentStep"
+msgctxt "Orchard.Recipes.Providers.Executors.RemoveContentStep"
+msgid "Remove Content"
+msgstr "删除内容"
+
+#: "Orchard.Recipes.Providers.Executors.RemoveContentStep"
+msgctxt "Orchard.Recipes.Providers.Executors.RemoveContentStep"
+msgid "Removes a list of content items."
+msgstr ""
+
+#: "Orchard.Recipes.Services.RecipeStepExecutor"
+msgctxt "Orchard.Recipes.Services.RecipeStepExecutor"
+msgid "Recipe execution with ID {0} failed because the step '{1}' failed to execute. The following exception was thrown:\n"
+"{2}\n"
+"Refer to the error logs for more information."
+msgstr ""
+
+#: "Orchard.Recipes.Services.RecipeStepExecutor"
+msgctxt "Orchard.Recipes.Services.RecipeStepExecutor"
+msgid "Recipe execution with ID {0} failed because no matching handler for recipe step '{1}' was found. Refer to the error logs for more information."
+msgstr ""
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgid "Content Type"
+msgstr "内容类型"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgid "Content"
+msgstr "内容"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgid "Content Definition"
+msgstr "内容定义"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgid "Choose the types to include in the export file"
+msgstr "选择要包含在导出文件中的类型"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgid "Version History"
+msgstr "版本历史"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgid "Only Published Versions"
+msgstr "仅包含已发布版本"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgid "Only Drafts"
+msgstr "仅包含草稿"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/Content.cshtml"
+msgid "Latest Versions"
+msgstr "最新版本"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Optionally provide a name for the recipe."
+msgstr "为该配方提供可选的名称。"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Description"
+msgstr "描述"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Optionally provide a description for the recipe."
+msgstr "为该配方提供可选的描述。"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Author"
+msgstr "作者"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Optionally provide the name of the author for the recipe."
+msgstr "为该配方提供可选的作者姓名。"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Website"
+msgstr "网站"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Optionally provide a website URL for the recipe."
+msgstr "为该配方提供可选的网站网址。"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Tags"
+msgstr "标签"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Optionally provide tags for the recipe."
+msgstr "为该配方提供可选的标签。"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Category"
+msgstr "类别"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Optionally provide a category for the recipe."
+msgstr "为该配方提供可选的类别。"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Version"
+msgstr "版本"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Optionally provide a version for the recipe."
+msgstr "为该配方提供可选的版本。"
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Is Setup Recipe"
+msgstr ""
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/BuilderSteps/RecipeMetadata.cshtml"
+msgid "Check this option to make this a Setup recipe."
+msgstr ""
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/ExecutionSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/ExecutionSteps/Content.cshtml"
+msgid "Batch Size"
+msgstr ""
+
+#: "~/Modules/Orchard.Recipes/Views/EditorTemplates/ExecutionSteps/Content.cshtml"
+msgctxt "~/Modules/Orchard.Recipes/Views/EditorTemplates/ExecutionSteps/Content.cshtml"
+msgid "The batch size to use when importing the data. Leave empty to disable batched imports."
+msgstr ""
+

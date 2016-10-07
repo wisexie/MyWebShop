@@ -1,0 +1,59 @@
+#. "Name"
+#: "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "Archive Later"
+msgstr "以后存档"
+
+#. "Author"
+#: "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#. "Website"
+#: "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#: "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "The ArchiveLater module introduces scheduled archiving functionality."
+msgstr "ArchiveLater模块引入了预定的归档功能。"
+
+#: "Orchard.ArchiveLater.Drivers.ArchiveLaterPartDriver"
+msgctxt "Orchard.ArchiveLater.Drivers.ArchiveLaterPartDriver"
+msgid "'{0} {1}' could not be parsed as a valid date and time."
+msgstr "“{0} {1}”不能解析为一个有效的日期和时间。"
+
+#: "Orchard.ArchiveLater.Services.ArchiveLaterService"
+msgctxt "Orchard.ArchiveLater.Services.ArchiveLaterService"
+msgid "Couldn't archive selected content."
+msgstr "无法归档选定内容。"
+
+#: "~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml"
+msgid "Archive Settings"
+msgstr "存档设置"
+
+#: "~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml"
+msgid "Archive Later"
+msgstr "以后存档"
+
+#: "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgid "Scheduled"
+msgstr "预期的"
+
+#: "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgid "The page is scheduled for archiving"
+msgstr "此页被预定归档"
+
+#: "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgid "Unpublish on"
+msgstr "取消发布在"
+

@@ -1,0 +1,172 @@
+#. "Name"
+#. "Orchard.Resources.Name"
+#: "~/Modules/Orchard.Resources/Module.txt"
+msgctxt "~/Modules/Orchard.Resources/Module.txt"
+msgid "Resources"
+msgstr "资源"
+
+#. "Author"
+#: "~/Modules/Orchard.Resources/Module.txt"
+msgctxt "~/Modules/Orchard.Resources/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard 开发团队"
+
+#. "Website"
+#: "~/Modules/Orchard.Resources/Module.txt"
+msgctxt "~/Modules/Orchard.Resources/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#. "Orchard.Resources.Description"
+#: "~/Modules/Orchard.Resources/Module.txt"
+msgctxt "~/Modules/Orchard.Resources/Module.txt"
+msgid "Provides a variety of third-party client-side libraries (stylesheets and scripts) used by other modules."
+msgstr "提供了多种供其他模块所使用的第三方客户端库 （样式表和脚本）。"
+
+#. "Orchard.Resources.Category"
+#: "~/Modules/Orchard.Resources/Module.txt"
+msgctxt "~/Modules/Orchard.Resources/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Prev"
+msgstr "上一页"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the previous month"
+msgstr "显示上一个月"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "<<"
+msgstr "<<"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the previous year"
+msgstr "显示前一年"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Next"
+msgstr "下一项"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the next month"
+msgstr "显示下一个月"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid ">>"
+msgstr ">>"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the next year"
+msgstr "显示下一年"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Current"
+msgstr "当前"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show the current month"
+msgstr "显示当前月"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Today"
+msgstr "今天"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Show today's month"
+msgstr "显示今天的月份"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Clear"
+msgstr "清空"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Clear the date field"
+msgstr "清空日期字段"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Done"
+msgstr "完成"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Close the datepicker"
+msgstr "关闭日期选择器"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Change the year"
+msgstr "更改年份"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Change the month"
+msgstr "更改月份"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Wk"
+msgstr "周"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Week of the year"
+msgstr "一年中的周次"
+
+#: "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/CalendarsPickerLocalization.cshtml"
+msgid "Select a date"
+msgstr "选择日期"
+
+#: "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgid "Now"
+msgstr "现在"
+
+#: "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgid "Previous field"
+msgstr "上一个字段"
+
+#: "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgid "Next field"
+msgstr "下一个字段"
+
+#: "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgid "Increment"
+msgstr "增加"
+
+#: "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgctxt "~/Modules/Orchard.Resources/Views/TimeEntryLocalization.cshtml"
+msgid "Decrement"
+msgstr "减少"
+
+#. "Date"
+msgctxt "~/Modules/Orchard.Resources/Views/EditorTemplates/DateTimeEditor.cshtml"
+msgid "Date"
+msgstr "日期"
+
+#. "Time"
+msgctxt "~/Modules/Orchard.Resources/Views/EditorTemplates/DateTimeEditor.cshtml"
+msgid "Time"
+msgstr "时间"
+

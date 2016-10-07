@@ -1,0 +1,42 @@
+#. "Name"
+#. "Orchard.Conditions.Name"
+#: "~/Modules/Orchard.Conditions/Module.txt"
+msgctxt "~/Modules/Orchard.Conditions/Module.txt"
+msgid "Conditions"
+msgstr "条件"
+
+#. "Author"
+#: "~/Modules/Orchard.Conditions/Module.txt"
+msgctxt "~/Modules/Orchard.Conditions/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard 开发组"
+
+#. "Website"
+#: "~/Modules/Orchard.Conditions/Module.txt"
+msgctxt "~/Modules/Orchard.Conditions/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#. "Orchard.Conditions.Description"
+#: "~/Modules/Orchard.Conditions/Module.txt"
+msgctxt "~/Modules/Orchard.Conditions/Module.txt"
+msgid "Provides a rules API that evaluate to true or false."
+msgstr "提供求值结果为 true 或 false 的规则 API。"
+
+#. "Orchard.Conditions.Category"
+#: "~/Modules/Orchard.Conditions/Module.txt"
+msgctxt "~/Modules/Orchard.Conditions/Module.txt"
+msgid "Scripting"
+msgstr "脚本"
+
+#: "Orchard.Conditions.Services.ConditionManager"
+msgctxt "Orchard.Conditions.Services.ConditionManager"
+msgid "There are currently no scripting engines enabled"
+msgstr "当前无启用的脚本引擎"
+
+#: "Orchard.Conditions.Services.ConditionManager"
+msgctxt "Orchard.Conditions.Services.ConditionManager"
+msgid "Expression is not a boolean value"
+msgstr "表达式非布尔值"
+

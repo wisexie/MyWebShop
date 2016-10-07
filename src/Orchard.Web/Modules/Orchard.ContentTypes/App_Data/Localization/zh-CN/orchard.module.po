@@ -1,0 +1,604 @@
+#. "Name"
+#: "~/Modules/Orchard.ContentTypes/Module.txt"
+msgctxt "~/Modules/Orchard.ContentTypes/Module.txt"
+msgid "ContentTypes"
+msgstr "内容模型"
+
+#. "Author"
+#: "~/Modules/Orchard.ContentTypes/Module.txt"
+msgctxt "~/Modules/Orchard.ContentTypes/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#. "Website"
+#: "~/Modules/Orchard.ContentTypes/Module.txt"
+msgctxt "~/Modules/Orchard.ContentTypes/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#: "~/Modules/Orchard.ContentTypes/Module.txt"
+msgctxt "~/Modules/Orchard.ContentTypes/Module.txt"
+msgid "ContentTypes modules enables the creation and alteration of content types not based on code."
+msgstr "ContentTypes组件使内容类型的创建和更改不以源代码为基础成为可能。"
+
+#: "Orchard.ContentTypes.AdminMenu"
+msgctxt "Orchard.ContentTypes.AdminMenu"
+msgid "Content Definition"
+msgstr "内容定义"
+
+#: "Orchard.ContentTypes.AdminMenu"
+msgctxt "Orchard.ContentTypes.AdminMenu"
+msgid "Content Types"
+msgstr "内容类型"
+
+#: "Orchard.ContentTypes.AdminMenu"
+msgctxt "Orchard.ContentTypes.AdminMenu"
+msgid "Content Parts"
+msgstr "内容元件"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Not allowed to view content types."
+msgstr "不允许查看内容类型。"
+
+#. "Not allowed to create a content type."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Not allowed to create a content type."
+msgstr "不允许创建内容类型。"
+
+#. "The Display Name name can't be empty."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The Display Name name can't be empty."
+msgstr "显示名称不能为空。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The Content Type Id can't be empty."
+msgstr "内容类型 Id 不能为空。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "A type with the same Id already exists."
+msgstr "存在相同ID的类型。"
+
+#. "The technical name must start with a letter."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The technical name must start with a letter."
+msgstr "技术名称必须以字母开头。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "A type with the same Display Name already exists."
+msgstr "已存在具有相同显示名称的类型。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The \"{0}\" content type has been created."
+msgstr "\"{0}\"内容类型已经创建。"
+
+#. "Not allowed to edit a content type."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Not allowed to edit a content type."
+msgstr "不允许编辑内容类型。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The Content Type name can't be empty."
+msgstr "内容类型名称不能为空。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "A type with the same name already exists."
+msgstr "已存在具有相同名称的类型。"
+
+#. "\"{0}\" settings have been saved."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "\"{0}\" settings have been saved."
+msgstr "\"{0}\"设置已经保存。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Not allowed to delete a content type."
+msgstr "不允许删除内容类型。"
+
+#. "\"{0}\" has been removed."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "\"{0}\" has been removed."
+msgstr "\"{0}\"已被删除。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The \"{0}\" part has been added."
+msgstr "已添加元件“{0}”。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The \"{0}\" part has been removed."
+msgstr "已删除元件“{0}”。"
+
+#. "Not allowed to create a content part."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Not allowed to create a content part."
+msgstr "不允许创建内容元件。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Cannot add part named '{0}'. It already exists."
+msgstr "名为“{0}”的部件已经存在，不能重复添加。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The content part could not be created."
+msgstr "无法创建内容元件。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The \"{0}\" content part has been created."
+msgstr "已创建内容元件“{0}”。"
+
+#. "Not allowed to edit a content part."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Not allowed to edit a content part."
+msgstr "不允许编辑内容元件。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Not allowed to delete a content part."
+msgstr "不允许删除内容元件。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The Technical Name can't be empty."
+msgstr "技术名称不能为空。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "A field with the same name already exists."
+msgstr "已存在具有相同名称的字段。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The technical name contains invalid characters."
+msgstr "技术名称包含无效字符。"
+
+#. "A field with the same Display Name already exists."
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "A field with the same Display Name already exists."
+msgstr "具有相同的显示名称的字段已存在。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The \"{0}\" field was not added. {1}"
+msgstr "\"{0}\"字段未添加。{1}"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The \"{0}\" field has been added."
+msgstr "\"{0}\"字段已添加。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "Display name changed to {0}."
+msgstr "显示名称更改为 {0}。"
+
+#: "Orchard.ContentTypes.Controllers.AdminController"
+msgctxt "Orchard.ContentTypes.Controllers.AdminController"
+msgid "The \"{0}\" field has been removed."
+msgstr "\"{0}\"字段已经删除。"
+
+#: "Orchard.ContentTypes.Services.ContentDefinitionService"
+msgctxt "Orchard.ContentTypes.Services.ContentDefinitionService"
+msgid "Cannot add part named '{0}'. It already exists."
+msgstr "不能添加名为“{0}”的元件。它已经存在。"
+
+#: "Orchard.ContentTypes.Services.ContentDefinitionService"
+msgctxt "Orchard.ContentTypes.Services.ContentDefinitionService"
+msgid "Fields must have a name containing no spaces or symbols."
+msgstr "字段名必须填写且不能含空格和符号。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgid "Add New Field To \"{0}\""
+msgstr "添加新字段到 \"{0}\""
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgid "Display Name"
+msgstr "显示名称"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgid "Name of the field as it will be displayed in screens."
+msgstr "将显示在屏幕中的字段名称。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgid "Technical Name"
+msgstr "技术名称"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgid "Technical name of the field."
+msgstr "该字段的技术名称。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgid "Field Type"
+msgstr "文件类型"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddFieldTo.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddPartsTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddPartsTo.cshtml"
+msgid "Add Parts To \"{0}\""
+msgstr "添加元件到 \"{0}\""
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddPartsTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddPartsTo.cshtml"
+msgid "Choose the Parts to add to this Content Type."
+msgstr "选择要添加到此内容类型的元件。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/AddPartsTo.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/AddPartsTo.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgid "New Content Type"
+msgstr "新建内容类型"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgid "Display Name"
+msgstr "显示名称"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgid "Name of the type as it will be displayed in screens."
+msgstr "将显示在屏幕中的类型名称。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgid "Content Type Id"
+msgstr "内容类型ID"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgid "Technical name of the type."
+msgstr "类型的技术名称。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Create.cshtml"
+msgid "Create"
+msgstr "创建"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/CreatePart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/CreatePart.cshtml"
+msgid "New Content Part"
+msgstr "新建内容元件"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/CreatePart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/CreatePart.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/CreatePart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/CreatePart.cshtml"
+msgid "Use no spaces or special characters. For example, \"MyCustomPart\""
+msgstr "不使用空格和特别符号。例如，\"MyCustomField\""
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/CreatePart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/CreatePart.cshtml"
+msgid "Create"
+msgstr "创建"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Edit Content Type - {0}"
+msgstr "编辑内容类型 - {0}"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Edit Placement"
+msgstr "编辑布局"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Display Name"
+msgstr "显示名称"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Content Type Id: {0}"
+msgstr "内容类型ID：{0}"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Fields"
+msgstr "字段"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Add Field"
+msgstr "添加字段"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Parts"
+msgstr "元件"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Add Parts"
+msgstr "添加元件"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/Edit.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditField.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditField.cshtml"
+msgid "Edit Field \"{0}\""
+msgstr "编辑字段 \"{0}\""
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditField.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditField.cshtml"
+msgid "Display Name"
+msgstr "显示名称"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditField.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditField.cshtml"
+msgid "Name of the field as it will be displayed in screens."
+msgstr "将显示在屏幕中的字段名称。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditField.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditField.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgid "Edit Part"
+msgstr "编辑元件"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgid "Fields"
+msgstr "字段"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgid "Add"
+msgstr "添加"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPart.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgid "Edit Placement - {0}"
+msgstr "编辑布局 - {0}"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgid "You need to hit \"Save\" in order to save your changes."
+msgstr "需要点击“保存”以保存您的更改。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgid "Are you sure you want to restore these placements?"
+msgstr "你确定要还原放置信息吗？"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/EditPlacement.cshtml"
+msgid "Restore"
+msgstr "恢复"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/List.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/List.cshtml"
+msgid "Manage Content Types"
+msgstr "管理内容类型"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/List.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/List.cshtml"
+msgid "Create new type"
+msgstr "创建新类型"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/List.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/List.cshtml"
+msgid "Filter:"
+msgstr "筛选："
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/ListParts.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/ListParts.cshtml"
+msgid "Content Parts"
+msgstr "内容元件"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/ListParts.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/ListParts.cshtml"
+msgid "Create new part"
+msgstr "创建新元件"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/ListParts.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/ListParts.cshtml"
+msgid "Filter:"
+msgstr "筛选："
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/RemoveFieldFrom.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/RemoveFieldFrom.cshtml"
+msgid "Remove the \"{0}\" part from  \"{1}\""
+msgstr "从\"{1}\"中删除\"{0}\""
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/RemoveFieldFrom.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/RemoveFieldFrom.cshtml"
+msgid "Looks like you couldn't use the fancy way to remove the field. Try hitting the button below to force the issue."
+msgstr "看起来您不能使用简单的办法删除此字段。尝试点击下面的按钮来强制解决这个问题。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/RemoveFieldFrom.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/RemoveFieldFrom.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/RemovePartFrom.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/RemovePartFrom.cshtml"
+msgid "Remove the \"{0}\" part from  \"{1}\""
+msgstr "从\"{1}\"中删除\"{0}\""
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/RemovePartFrom.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/RemovePartFrom.cshtml"
+msgid "Looks like you couldn't use the fancy way to remove the part. Try hitting the button below to force the issue."
+msgstr "看起来您不能使用简单的办法删除此元件。尝试点击下面的按钮来强制解决这个问题。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/Admin/RemovePartFrom.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/Admin/RemovePartFrom.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentPartSettings.cshtml"
+msgid "Description"
+msgstr "说明"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentPartSettings.cshtml"
+msgid "Optionally provide a description for this part"
+msgstr "（可选） 提供此元件的说明"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentPartSettings.cshtml"
+msgid "Attachable"
+msgstr "可附加"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentPartSettings.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentPartSettings.cshtml"
+msgid "Check to allow this part to be attached to other content types."
+msgstr "选中将允许此元件附加到其他内容类型。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Creatable"
+msgstr "可创建"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Determines if an instance of this content type can be created through the UI."
+msgstr "确定是否可以通过用户界面创建此内容类型的实例。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Listable"
+msgstr "可作为列表"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Determines if an instance of this content type can be listed through the UI."
+msgstr "决定该内容类型的实例能否通过用户界面显示为列表。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Draftable"
+msgstr "可存储为草稿"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Determines if this content type supports draft versions."
+msgstr "确定此内容类型是否支持草稿版本。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Securable"
+msgstr "可使用安全性"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Determines if this content type can have custom permissions."
+msgstr "决定此内容类型能否具有自定义权限。"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "Stereotype"
+msgstr "存储类型"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DefinitionTemplates/ContentTypeSettingsViewModel.cshtml"
+msgid "(Optional) The stereotype of the content type. e.g., Widget, MenuItem, ..."
+msgstr "（可选）内容类型的存储类型。例如Widget, MenuItem, ..."
+
+#: "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditPartViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditPartViewModel.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditTypeViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditTypeViewModel.cshtml"
+msgid "Create New {0}"
+msgstr "新建 {0}"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditTypeViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditTypeViewModel.cshtml"
+msgid "List Items"
+msgstr "项目列表"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditTypeViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditTypeViewModel.cshtml"
+msgid " | "
+msgstr "|"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditTypeViewModel.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/EditTypeViewModel.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/Settings.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/DisplayTemplates/Settings.cshtml"
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: "~/Modules/Orchard.ContentTypes/Views/EditorTemplates/Field.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/EditorTemplates/Field.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: "~/Modules/Orchard.ContentTypes/Views/EditorTemplates/Field.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/EditorTemplates/Field.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: "~/Modules/Orchard.ContentTypes/Views/EditorTemplates/TypePart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/EditorTemplates/TypePart.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: "~/Modules/Orchard.ContentTypes/Views/EditorTemplates/TypePart.cshtml"
+msgctxt "~/Modules/Orchard.ContentTypes/Views/EditorTemplates/TypePart.cshtml"
+msgid "{0} Settings:"
+msgstr "{0}设置："
+

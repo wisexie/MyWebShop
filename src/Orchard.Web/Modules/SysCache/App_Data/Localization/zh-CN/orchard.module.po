@@ -1,0 +1,31 @@
+#. "Name"
+#: "~/Modules/SysCache/Module.txt"
+msgctxt "~/Modules/SysCache/Module.txt"
+msgid "SysCache"
+msgstr "SysCache"
+
+#. "Author"
+#: "~/Modules/SysCache/Module.txt"
+msgctxt "~/Modules/SysCache/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard 团队"
+
+#. "Website"
+#: "~/Modules/SysCache/Module.txt"
+msgctxt "~/Modules/SysCache/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#. "SysCache.Description"
+#: "~/Modules/SysCache/Module.txt"
+msgctxt "~/Modules/SysCache/Module.txt"
+msgid "Enables database caching using the SysCache provider."
+msgstr "使用 SysCache 提供程序启用数据库缓存。"
+
+#. "SysCache.Category"
+#: "~/Modules/SysCache/Module.txt"
+msgctxt "~/Modules/SysCache/Module.txt"
+msgid "Performance"
+msgstr "性能"
+

@@ -1,0 +1,843 @@
+#. "Name"
+#. "Orchard.Workflows.Timer.Category"
+#: "~/Modules/Orchard.Workflows/Module.txt"
+msgctxt "~/Modules/Orchard.Workflows/Module.txt"
+msgid "Workflows"
+msgstr "工作流"
+
+#. "Author"
+#: "~/Modules/Orchard.Workflows/Module.txt"
+msgctxt "~/Modules/Orchard.Workflows/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#. "Website"
+#: "~/Modules/Orchard.Workflows/Module.txt"
+msgctxt "~/Modules/Orchard.Workflows/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#. "Description"
+#. "Orchard.Workflows.Description"
+#: "~/Modules/Orchard.Workflows/Module.txt"
+msgctxt "~/Modules/Orchard.Workflows/Module.txt"
+msgid "Provides tools to create custom workflows."
+msgstr "提供的工具来创建自定义工作流。"
+
+#. "Orchard.Workflows.Timer.Name"
+#: "~/Modules/Orchard.Workflows/Module.txt"
+msgctxt "~/Modules/Orchard.Workflows/Module.txt"
+msgid "Workflows Timer"
+msgstr "工作流计时器"
+
+#. "Orchard.Workflows.Timer.Description"
+#: "~/Modules/Orchard.Workflows/Module.txt"
+msgctxt "~/Modules/Orchard.Workflows/Module.txt"
+msgid "Provides a Timer activity."
+msgstr "提供一个计时器的活动。"
+
+#. "Workflows"
+msgctxt "Orchard.Workflows.AdminMenu"
+msgid "Workflows"
+msgstr "工作流"
+
+#: "Orchard.Workflows.Activities.BranchActivity"
+msgctxt "Orchard.Workflows.Activities.BranchActivity"
+msgid "Flow"
+msgstr "流"
+
+#: "Orchard.Workflows.Activities.BranchActivity"
+msgctxt "Orchard.Workflows.Activities.BranchActivity"
+msgid "Splits the workflow on different branches."
+msgstr "拆分不同分支的工作流。"
+
+#. "Done"
+msgctxt "Orchard.Workflows.Activities.ContentActivity"
+msgid "Done"
+msgstr "完成"
+
+#: "Orchard.Workflows.Activities.ContentActivity"
+msgctxt "Orchard.Workflows.Activities.ContentActivity"
+msgid "Content Items"
+msgstr "内容项目"
+
+#: "Orchard.Workflows.Activities.ContentActivity"
+msgctxt "Orchard.Workflows.Activities.ContentActivity"
+msgid "Content is created."
+msgstr "内容被创建。"
+
+#: "Orchard.Workflows.Activities.ContentActivity"
+msgctxt "Orchard.Workflows.Activities.ContentActivity"
+msgid "Content is updated."
+msgstr "内容已更新。"
+
+#: "Orchard.Workflows.Activities.ContentActivity"
+msgctxt "Orchard.Workflows.Activities.ContentActivity"
+msgid "Content is published."
+msgstr "内容被发布。"
+
+#: "Orchard.Workflows.Activities.ContentActivity"
+msgctxt "Orchard.Workflows.Activities.ContentActivity"
+msgid "Content is versioned."
+msgstr "内容经过版本控制。"
+
+#: "Orchard.Workflows.Activities.ContentActivity"
+msgctxt "Orchard.Workflows.Activities.ContentActivity"
+msgid "Content is removed."
+msgstr "内容被删除。"
+
+#. "Deleted"
+msgctxt "Orchard.Workflows.Activities.DeleteActivity"
+msgid "Deleted"
+msgstr "已删除"
+
+#: "Orchard.Workflows.Activities.DeleteActivity"
+msgctxt "Orchard.Workflows.Activities.DeleteActivity"
+msgid "Content Items"
+msgstr "内容项目"
+
+#: "Orchard.Workflows.Activities.DeleteActivity"
+msgctxt "Orchard.Workflows.Activities.DeleteActivity"
+msgid "Delete the content item."
+msgstr "删除该内容。"
+
+#: "Orchard.Workflows.Activities.ExclusiveBranchActivity"
+msgctxt "Orchard.Workflows.Activities.ExclusiveBranchActivity"
+msgid "Splits the workflow on different branches, activating the first event to occur."
+msgstr "将工作流拆分为不同的分支，激活第一个事件发生的。"
+
+#: "Orchard.Workflows.Activities.LoggingActivity"
+msgctxt "Orchard.Workflows.Activities.LoggingActivity"
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: "Orchard.Workflows.Activities.LoggingActivity"
+msgctxt "Orchard.Workflows.Activities.LoggingActivity"
+msgid "Creates an entry in the application's logs."
+msgstr "在应用程序的日志中创建一个条目。"
+
+#. "Done"
+msgctxt "Orchard.Workflows.Activities.LoggingActivity"
+msgid "Done"
+msgstr "完成"
+
+#. "Done"
+msgctxt "Orchard.Workflows.Activities.MergeActivity"
+msgid "Done"
+msgstr "完成"
+
+#: "Orchard.Workflows.Activities.MergeActivity"
+msgctxt "Orchard.Workflows.Activities.MergeActivity"
+msgid "Flow"
+msgstr "流"
+
+#: "Orchard.Workflows.Activities.MergeActivity"
+msgctxt "Orchard.Workflows.Activities.MergeActivity"
+msgid "Merges multiple branches."
+msgstr "合并多个分支。"
+
+#: "Orchard.Workflows.Activities.NotificationActivity"
+msgctxt "Orchard.Workflows.Activities.NotificationActivity"
+msgid "Notification"
+msgstr "通知活动"
+
+#: "Orchard.Workflows.Activities.NotificationActivity"
+msgctxt "Orchard.Workflows.Activities.NotificationActivity"
+msgid "Display a message."
+msgstr "显示一条消息。"
+
+#. "Done"
+msgctxt "Orchard.Workflows.Activities.NotificationActivity"
+msgid "Done"
+msgstr "完成"
+
+#. "Published"
+msgctxt "Orchard.Workflows.Activities.PublishActivity"
+msgid "Published"
+msgstr "已发布"
+
+#: "Orchard.Workflows.Activities.PublishActivity"
+msgctxt "Orchard.Workflows.Activities.PublishActivity"
+msgid "Content Items"
+msgstr "内容项目"
+
+#: "Orchard.Workflows.Activities.PublishActivity"
+msgctxt "Orchard.Workflows.Activities.PublishActivity"
+msgid "Publish the content item."
+msgstr "发布内容项。"
+
+#. "Done"
+msgctxt "Orchard.Workflows.Activities.RedirectActivity"
+msgid "Done"
+msgstr "已完成"
+
+#: "Orchard.Workflows.Activities.RedirectActivity"
+msgctxt "Orchard.Workflows.Activities.RedirectActivity"
+msgid "HTTP"
+msgstr "HTTP"
+
+#: "Orchard.Workflows.Activities.RedirectActivity"
+msgctxt "Orchard.Workflows.Activities.RedirectActivity"
+msgid "Redirects to the specified URL."
+msgstr "重定向到指定的 URL。"
+
+#. "Done"
+msgctxt "Orchard.Workflows.Activities.SignalActivity"
+msgid "Done"
+msgstr "完成"
+
+#: "Orchard.Workflows.Activities.SignalActivity"
+msgctxt "Orchard.Workflows.Activities.SignalActivity"
+msgid "Events"
+msgstr "事件"
+
+#: "Orchard.Workflows.Activities.SignalActivity"
+msgctxt "Orchard.Workflows.Activities.SignalActivity"
+msgid "Suspends the workflow until this signal is specifically triggered."
+msgstr "挂起工作流，直到信号被特定触发。"
+
+#: "Orchard.Workflows.Activities.TimerActivity"
+msgctxt "Orchard.Workflows.Activities.TimerActivity"
+msgid "Tasks"
+msgstr "任务"
+
+#: "Orchard.Workflows.Activities.TimerActivity"
+msgctxt "Orchard.Workflows.Activities.TimerActivity"
+msgid "Wait for a specific time has passed."
+msgstr "等待一个特定的时间已经过去了。"
+
+#. "Done"
+msgctxt "Orchard.Workflows.Activities.TimerActivity"
+msgid "Done"
+msgstr "完成"
+
+#. "Done"
+msgctxt "Orchard.Workflows.Activities.TriggerActivity"
+msgid "Done"
+msgstr "完成"
+
+#: "Orchard.Workflows.Activities.TriggerActivity"
+msgctxt "Orchard.Workflows.Activities.TriggerActivity"
+msgid "Events"
+msgstr "事件"
+
+#: "Orchard.Workflows.Activities.TriggerActivity"
+msgctxt "Orchard.Workflows.Activities.TriggerActivity"
+msgid "Triggers a Signal by its name."
+msgstr "由其名称触发一个信号。"
+
+#. "Error"
+msgctxt "Orchard.Workflows.Activities.WebRequestActivity"
+msgid "Error"
+msgstr "错误"
+
+#. "Success"
+msgctxt "Orchard.Workflows.Activities.WebRequestActivity"
+msgid "Success"
+msgstr "成功"
+
+#: "Orchard.Workflows.Activities.WebRequestActivity"
+msgctxt "Orchard.Workflows.Activities.WebRequestActivity"
+msgid "HTTP"
+msgstr "HTTP"
+
+#: "Orchard.Workflows.Activities.WebRequestActivity"
+msgctxt "Orchard.Workflows.Activities.WebRequestActivity"
+msgid "Performs an HTTP request."
+msgstr "执行 HTTP 请求。"
+
+#. "Not authorized to list workflows"
+msgctxt "Orchard.Workflows.Controllers.AdminController"
+msgid "Not authorized to list workflows"
+msgstr "列出工作流未授权"
+
+#. "Not authorized to manage workflows"
+msgctxt "Orchard.Workflows.Controllers.AdminController"
+msgid "Not authorized to manage workflows"
+msgstr "未授权无法管理工作流"
+
+#. "Workflow {0} deleted"
+msgctxt "Orchard.Workflows.Controllers.AdminController"
+msgid "Workflow {0} deleted"
+msgstr "删除工作流 {0}"
+
+#. "Not authorized to edit workflows."
+msgctxt "Orchard.Workflows.Controllers.AdminController"
+msgid "Not authorized to edit workflows."
+msgstr "编辑工作流未授权。"
+
+#: "Orchard.Workflows.Controllers.AdminController"
+msgctxt "Orchard.Workflows.Controllers.AdminController"
+msgid "The Name can't be empty."
+msgstr "名称不能为空。"
+
+#. "Not authorized to edit workflows"
+msgctxt "Orchard.Workflows.Controllers.AdminController"
+msgid "Not authorized to edit workflows"
+msgstr "编辑工作流未授权"
+
+#: "Orchard.Workflows.Controllers.AdminController"
+msgctxt "Orchard.Workflows.Controllers.AdminController"
+msgid "Workflow deleted"
+msgstr "工作流已删除"
+
+#: "Orchard.Workflows.Controllers.AdminController"
+msgctxt "Orchard.Workflows.Controllers.AdminController"
+msgid "Workflow saved successfully"
+msgstr "工作流保存成功"
+
+#: "Orchard.Workflows.Forms.BranchForms"
+msgctxt "Orchard.Workflows.Forms.BranchForms"
+msgid "Available branches."
+msgstr "可用的分支。"
+
+#: "Orchard.Workflows.Forms.BranchForms"
+msgctxt "Orchard.Workflows.Forms.BranchForms"
+msgid "A comma separated list of names."
+msgstr "逗号分隔的名称列表。"
+
+#: "Orchard.Workflows.Forms.ContentForms"
+msgctxt "Orchard.Workflows.Forms.ContentForms"
+msgid "Content types"
+msgstr "内容类型"
+
+#: "Orchard.Workflows.Forms.ContentForms"
+msgctxt "Orchard.Workflows.Forms.ContentForms"
+msgid "Select some content types."
+msgstr "选择一些内容的类型。"
+
+#: "Orchard.Workflows.Forms.ContentForms"
+msgctxt "Orchard.Workflows.Forms.ContentForms"
+msgid "Any"
+msgstr "任意"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "Log entry level"
+msgstr "日志条目级别"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "Select what type of notification should be displayed."
+msgstr "选择应该显示的通知的类型。"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "Debug"
+msgstr "调试"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "Information"
+msgstr "信息"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "Warning"
+msgstr "警告"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "Error"
+msgstr "错误"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "Fatal"
+msgstr "致命的"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "Message"
+msgstr "消息"
+
+#: "Orchard.Workflows.Forms.LoggingActivityForms"
+msgctxt "Orchard.Workflows.Forms.LoggingActivityForms"
+msgid "The message to log."
+msgstr "要记录的消息。"
+
+#: "Orchard.Workflows.Forms.NotificationActivityForms"
+msgctxt "Orchard.Workflows.Forms.NotificationActivityForms"
+msgid "Notification type"
+msgstr "通知类型"
+
+#: "Orchard.Workflows.Forms.NotificationActivityForms"
+msgctxt "Orchard.Workflows.Forms.NotificationActivityForms"
+msgid "Select what type of notification should be displayed."
+msgstr "选择应该显示的通知的类型。"
+
+#: "Orchard.Workflows.Forms.NotificationActivityForms"
+msgctxt "Orchard.Workflows.Forms.NotificationActivityForms"
+msgid "Information"
+msgstr "消息"
+
+#: "Orchard.Workflows.Forms.NotificationActivityForms"
+msgctxt "Orchard.Workflows.Forms.NotificationActivityForms"
+msgid "Warning"
+msgstr "警告"
+
+#: "Orchard.Workflows.Forms.NotificationActivityForms"
+msgctxt "Orchard.Workflows.Forms.NotificationActivityForms"
+msgid "Error"
+msgstr "错误"
+
+#: "Orchard.Workflows.Forms.NotificationActivityForms"
+msgctxt "Orchard.Workflows.Forms.NotificationActivityForms"
+msgid "Message"
+msgstr "消息"
+
+#: "Orchard.Workflows.Forms.NotificationActivityForms"
+msgctxt "Orchard.Workflows.Forms.NotificationActivityForms"
+msgid "The notification message to display."
+msgstr "要显示的通知消息。"
+
+#: "Orchard.Workflows.Forms.RedirectActionForm"
+msgctxt "Orchard.Workflows.Forms.RedirectActionForm"
+msgid "Url"
+msgstr "URL"
+
+#: "Orchard.Workflows.Forms.RedirectActionForm"
+msgctxt "Orchard.Workflows.Forms.RedirectActionForm"
+msgid "The url to redirect to."
+msgstr "要重定向的 url。"
+
+#: "Orchard.Workflows.Forms.SignalForms"
+msgctxt "Orchard.Workflows.Forms.SignalForms"
+msgid "Name of the signal."
+msgstr "信号的名称。"
+
+#: "Orchard.Workflows.Forms.SignalForms"
+msgctxt "Orchard.Workflows.Forms.SignalForms"
+msgid "The name of the signal."
+msgstr "信号的名称。"
+
+#: "Orchard.Workflows.Forms.SignalForms"
+msgctxt "Orchard.Workflows.Forms.SignalForms"
+msgid "Available signals"
+msgstr "可用的信号"
+
+#: "Orchard.Workflows.Forms.SignalForms"
+msgctxt "Orchard.Workflows.Forms.SignalForms"
+msgid "Select a signal."
+msgstr "选择一个信号。"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Amount"
+msgstr "数量"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Amount of time units to add."
+msgstr "要添加的单位时间的数量。"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Amount type"
+msgstr "数量类型"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Minutes"
+msgstr "分钟"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Hours"
+msgstr "小时"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Days"
+msgstr "天"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Weeks"
+msgstr "周"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Months"
+msgstr "月"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Date"
+msgstr "日期"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "Optional. Starting date/time to calculate difference from. Leave blank to use current date/time."
+msgstr "可选项。开始日期/时间用来计算差额。留空则使用当前的日期/时间。"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "You must provide an Amount"
+msgstr "您必须提供一个数量"
+
+#: "Orchard.Workflows.Forms.TimerForms"
+msgctxt "Orchard.Workflows.Forms.TimerForms"
+msgid "You must provide a Type"
+msgstr "您必须提供一种类型"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "Url"
+msgstr "URL"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "The url to send the request to."
+msgstr "要发送请求的 url。"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "Verb"
+msgstr "谓词"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "The HTTP verb to use."
+msgstr "要使用的 HTTP 谓词。"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "Headers"
+msgstr "Headers"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "Enter one line per header=value pair"
+msgstr "一行一个header键值对"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "Form Format"
+msgstr "Form格式"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "The serialization format to use for the POST body."
+msgstr "要使用 post 的序列化格式。"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "Form Values"
+msgstr "表单值"
+
+#: "Orchard.Workflows.Forms.WebRequestForm"
+msgctxt "Orchard.Workflows.Forms.WebRequestForm"
+msgid "For KeyValue, enter one line per key=value pair to submit when using the POST verb. For JSon, enter a valid JSon string"
+msgstr "对于 KeyValue，每个key=value输入一行，使用POST方式提交。对于 JSon，请输入一个有效的 JSon 字符串"
+
+#: "Orchard.Workflows.Recipes.Builders.WorkflowsStep"
+msgctxt "Orchard.Workflows.Recipes.Builders.WorkflowsStep"
+msgid "Workflows"
+msgstr "工作流"
+
+#: "Orchard.Workflows.Recipes.Builders.WorkflowsStep"
+msgctxt "Orchard.Workflows.Recipes.Builders.WorkflowsStep"
+msgid "Exports workflow definitions."
+msgstr "导出工作流定义。"
+
+#: "Orchard.Workflows.Tokens.SignalTokens"
+msgctxt "Orchard.Workflows.Tokens.SignalTokens"
+msgid "Workflow"
+msgstr "工作流"
+
+#: "Orchard.Workflows.Tokens.SignalTokens"
+msgctxt "Orchard.Workflows.Tokens.SignalTokens"
+msgid "Workflow tokens."
+msgstr "工作流标记。"
+
+#: "Orchard.Workflows.Tokens.SignalTokens"
+msgctxt "Orchard.Workflows.Tokens.SignalTokens"
+msgid "TriggerUrl:<signal>"
+msgstr "TriggerUrl： <signal>"
+
+#: "Orchard.Workflows.Tokens.SignalTokens"
+msgctxt "Orchard.Workflows.Tokens.SignalTokens"
+msgid "The relative url to call in order to trigger the specified Signal."
+msgstr "相对URL，以便调用来触发指定的信号。"
+
+#: "Orchard.Workflows.Tokens.StateTokens"
+msgctxt "Orchard.Workflows.Tokens.StateTokens"
+msgid "Workflow"
+msgstr "工作流"
+
+#: "Orchard.Workflows.Tokens.StateTokens"
+msgctxt "Orchard.Workflows.Tokens.StateTokens"
+msgid "Workflow tokens."
+msgstr "工作流标记。"
+
+#: "Orchard.Workflows.Tokens.StateTokens"
+msgctxt "Orchard.Workflows.Tokens.StateTokens"
+msgid "State:<workflowcontext path>"
+msgstr "状态： <workflowcontext path>"
+
+#: "Orchard.Workflows.Tokens.StateTokens"
+msgctxt "Orchard.Workflows.Tokens.StateTokens"
+msgid "The workflow context state to access. Workflow.State:MyData.MyProperty.SubProperty"
+msgstr "若要访问工作流上下文状态。Workflow.State:MyData.MyProperty.SubProperty"
+
+#: "~/Modules/Orchard.Workflows/Views/Activity-Delete.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Activity-Delete.cshtml"
+msgid "Delete content item"
+msgstr "删除内容项"
+
+#: "~/Modules/Orchard.Workflows/Views/Activity-Notify.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Activity-Notify.cshtml"
+msgid "{0}: {1}"
+msgstr "{0}: {1}"
+
+#: "~/Modules/Orchard.Workflows/Views/Activity-Publish.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Activity-Publish.cshtml"
+msgid "Publish content item"
+msgstr "发布内容项"
+
+#: "~/Modules/Orchard.Workflows/Views/Activity-Redirect.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Activity-Redirect.cshtml"
+msgid "Redirect"
+msgstr "重定向"
+
+#: "~/Modules/Orchard.Workflows/Views/Activity-Redirect.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Activity-Redirect.cshtml"
+msgid "Redirect to {0}"
+msgstr "将重定向到 {0}"
+
+#: "~/Modules/Orchard.Workflows/Views/Activity-Timer.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Activity-Timer.cshtml"
+msgid "{0} {1} after"
+msgstr "{0} {1} 后"
+
+#: "~/Modules/Orchard.Workflows/Views/ActivityToolbox.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/ActivityToolbox.cshtml"
+msgid "Filter:"
+msgstr "筛选器:"
+
+#: "~/Modules/Orchard.Workflows/Views/Parts.Workflow.SummaryAdmin.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Parts.Workflow.SummaryAdmin.cshtml"
+msgid "Running workflows"
+msgstr "运行中的工作流"
+
+#: "~/Modules/Orchard.Workflows/Views/Parts.Workflow.SummaryAdmin.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Parts.Workflow.SummaryAdmin.cshtml"
+msgid "Running ({0})"
+msgstr "运行 ({0})"
+
+#: "~/Modules/Orchard.Workflows/Views/Parts.Workflow.SummaryAdmin.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Parts.Workflow.SummaryAdmin.cshtml"
+msgid "{0} Workflow"
+msgstr "{0} 的工作流"
+
+#: "~/Modules/Orchard.Workflows/Views/Parts.Workflow.SummaryAdmin.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Parts.Workflow.SummaryAdmin.cshtml"
+msgid "{0} Workflows"
+msgstr "{0} 的工作流"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Create.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Create.cshtml"
+msgid "The name of the Workflow"
+msgstr "工作流的名称"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Create.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Create.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Edit Workflow {0}"
+msgstr "编辑工作流 {0}"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Starts workflow"
+msgstr "启动工作流"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Remove"
+msgstr "移除"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Are you sure you want to remove this activity?"
+msgstr "你确定你想要删除此活动？"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "You have running instances of this workflow, do you want to stop them?"
+msgstr "你正在运行此工作流的实例，需要停止它们吗？"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Yes"
+msgstr "是"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "No"
+msgstr "否　"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Cancel"
+msgstr "取消"
+
+#. "Save"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "Close"
+msgstr "关闭"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "You need to hit \"Save\" in order to save your changes."
+msgstr "需要点击“保存”以保存您的更改。"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Edit.cshtml"
+msgid "The workflow needs at least one activity to be set as a starting state."
+msgstr "工作流至少需要一个活动设置为启动状态。"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/EditActivity.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/EditActivity.cshtml"
+msgid "Edit Activity"
+msgstr "编辑活动"
+
+#. "Save"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/EditActivity.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#. "Cancel"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/EditActivity.cshtml"
+msgid "Cancel"
+msgstr "取消"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/EditProperties.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/EditProperties.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/EditProperties.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/EditProperties.cshtml"
+msgid "The name of the Workflow."
+msgstr "工作流的名称"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/EditProperties.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/EditProperties.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Manage Workflow Definitions"
+msgstr "管理工作流定义"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Create new Workflow Definition"
+msgstr "创建新的工作流定义"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "动作："
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Choose action..."
+msgstr "选择操作..."
+
+#. "Delete"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#. "Apply"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Sort by:"
+msgstr "排序依据："
+
+#. "Name"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Show:"
+msgstr "显示："
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "All"
+msgstr "全部"
+
+#. "Filter"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Filter"
+msgstr "过滤条件"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "{0} Running"
+msgstr "{0} 在运行中"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Properties"
+msgstr "属性"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgid "Running workflows"
+msgstr "运行中的工作流"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgid "Worfklow Definition"
+msgstr "工作流定义"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgid "No workflows associated with this content item."
+msgstr "没有与此内容项目关联的工作流。"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgid "Status"
+msgstr "状态"
+
+#: "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgctxt "~/Modules/Orchard.Workflows/Views/Admin/List.cshtml"
+msgid "Delete"
+msgstr "删除"
+
