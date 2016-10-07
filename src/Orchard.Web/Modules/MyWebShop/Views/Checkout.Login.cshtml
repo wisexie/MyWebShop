@@ -1,50 +1,45 @@
 ﻿@using MyWebShop.ViewModels
 @{
     var login = (LoginViewModel)Model.Login;
-
-    Style.Require("MyWebShop.Common");
+    Style.Require("MyWebShop.login");
 }
-
-<h2>@T("Returning customer")</h2>
-<p>@T("Please login using the form below")</p>
-
 @Html.ValidationSummary()
-
 @using (Html.BeginFormAntiForgeryPost(Url.Action("Login", "Checkout", new { area = "MyWebShop" })))
 {
-
-    <article class="form">
-
-        <fieldset>
-            <ul>
-                <li>
-                    <div class="field-label">@Html.LabelFor(m => login.Email, T("Email"))</div>
-                    <div class="field-editor">@Html.EditorFor(m => login.Email)</div>
-                </li>
-                <li>
-                    <div class="field-label">@Html.LabelFor(m => login.Password, T("Password"))</div>
-                    <div class="field-editor">@Html.EditorFor(m => login.Password)</div>
-                </li>
-            </ul>
-        </fieldset>
-
-        <fieldset>
-            <ul>
-                <li>
-                    <div class="checkbox-and-label">
-                        <div class="checkbox">@Html.CheckBoxFor(m => login.CreatePersistentCookie)</div>
-                        <div class="label">@Html.LabelFor(m => login.CreatePersistentCookie, T("Remember me next time"))</div>
+    <section class="container">
+        <article class="conSec clearfix">
+            <section class="alLogo"> <a href="#" title=""><img src="@Href("~/Modules/MyWebShop/images/fas54fas5f_03.jpg")" alt="" /></a> </section>
+            <section class="alLoad">
+                <div class="alLoad-box">
+                    <div class="conLoad">
+                        <ul>
+                            <li class="fl denLo-le">登录</li>
+                            <li class="fl denLo-ri"></li>
+                        </ul>
                     </div>
-                </li>
-            </ul>
-        </fieldset>
-
-        <footer class="commands">
-            <ul>
-                <li class="align left"><a href="#">@T("Cancel")</a></li>
-                <li class="align right"><button type="submit">@T("Next")</button></li>
-            </ul>
-        </footer>
-
-    </article>
+                    <div class="clearfix"></div>
+                    <div class="conIrep">
+                        <div class="Irep-zha">
+                            <span class="IrepZha-le">@Html.LabelFor(m => login.Email, T("账号")) :</span>
+                            <input class="IrepZha-inp" type="text" placeholder="请输入邮箱/手机号" id="login_Email" name="login.Email" />
+                        </div>
+                        <div class="Irep-zha">
+                            <span class="IrepZha-le">@Html.LabelFor(m => login.Password, T("密码")) :</span>
+                            <input class="IrepZha-inp" type="password" placeholder="请输入密码" name="login.Password" id="login_Password" />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="Irep-sbu">
+                        <button type="submit" class="Irep-inSub">@T("登录")</button>
+                    </div>
+                    <div class="passLis">
+                        <div class="fl">
+                             @Html.CheckBoxFor(m=>login.CreatePersistentCookie)
+                            <label for="login_CreatePersistentCookie" class="passLis-lab">记住密码</label>
+                        </div><span class="fr"><a href="#" title="">忘记密码？丨</a><a style=" color:#78168b" href="@Url.Action("Signup", "Checkout", new { area = "MyWebShop" })" title="免费注册">免费注册</a></span>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </section>
 }

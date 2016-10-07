@@ -61,15 +61,31 @@ namespace MyWebShop.Controllers
             if (!ModelState.IsValid)
                 return new ShapeResult(this, _services.New.Checkout_Signup(Signup: signup));
 
-            var customer = _customerService.CreateCustomer(signup.Email, signup.Password);
-            customer.FirstName = signup.FirstName;
-            customer.LastName = signup.LastName;
+            var customer = _customerService.CreateCustomer(signup.Email,"", signup.Password);
+
             customer.Title = signup.Title;
 
             _authenticationService.SignIn(customer.User, true);
 
             return RedirectToAction("SelectAddress");
         }
+
+        [HttpPost]
+        public ActionResult PhoneSignup(PhoneSignupViewModel signup)
+        {
+            if (!ModelState.IsValid)
+                return new ShapeResult(this, _services.New.Checkout_Signup(PhoneSignup: signup));
+
+            var customer = _customerService.CreateCustomer("",signup.PhoneNumber, signup.Password);
+
+            customer.Title = signup.Title;
+
+            _authenticationService.SignIn(customer.User, true);
+
+            return RedirectToAction("SelectAddress");
+        }
+        
+
         [Themed]
         public ActionResult Login()
         {
@@ -86,7 +102,7 @@ namespace MyWebShop.Controllers
             // If no user was found, add a model error
             if (user == null)
             {
-                ModelState.AddModelError("Email", T("Incorrect username/password combination").ToString());
+                ModelState.AddModelError("Email", T("无效的密码或者是用户名").ToString());
             }
 
             // If there are any model errors, redisplay the login form
@@ -98,7 +114,6 @@ namespace MyWebShop.Controllers
 
             // Create a forms ticket for the user
             _authenticationService.SignIn(user, login.CreatePersistentCookie);
-
             // Redirect to the next step
             return RedirectToAction("SelectAddress");
         }

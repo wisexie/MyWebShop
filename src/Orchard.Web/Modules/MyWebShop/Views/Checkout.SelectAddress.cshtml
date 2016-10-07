@@ -5,7 +5,7 @@
     Style.Require("MyWebShop.Common");
 }
 <h2>Address Details</h2>
-<p>@T("Please provide us with your billing address and shipping address. If both addresses are the same, then you only need to provide us with your invoice address.")</p>
+<p>@T("请向我们提供您的账单地址和送货地址。如果两个地址是相同的，那么你只需要向我们提供您的发票地址。")</p>
 
 @using (Html.BeginFormAntiForgeryPost(Url.Action("SelectAddress", "Checkout", new { area = "MyWebShop" })))
 {
@@ -16,8 +16,7 @@
 
         <footer class="commands">
             <ul>
-                <li class="align left"><a href="#">@T("Cancel")</a></li>
-                <li class="align right"><button type="submit">@T("Next")</button></li>
+                <li class="align right"><button type="submit">@T("下一步")</button></li>
             </ul>
         </footer>
     </article>

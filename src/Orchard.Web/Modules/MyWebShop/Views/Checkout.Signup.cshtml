@@ -1,78 +1,112 @@
 ﻿@using MyWebShop.ViewModels
 @{
     var signup = (SignupViewModel)Model.Signup;
-
-    Style.Require("MyWebShop.Common");
+    var phoneSignup = (PhoneSignupViewModel)Model.PhoneSignup;
+    Style.Require("MyWebShop.Register");
 }
-
-<h2>@T("New customer")</h2>
-<p>@T("Please fill out the form below")</p>
 
 @Html.ValidationSummary()
-
-@using (Html.BeginFormAntiForgeryPost(Url.Action("Signup", "Checkout", new { area = "MyWebShop" })))
-{
-    <article class="form">
-        <fieldset>
-            <ul>
-                <li>
-                    <div class="field-label">@Html.LabelFor(m => signup.Title, T("Title"))</div>
-                    <div class="field-editor">@Html.EditorFor(m => signup.Title)</div>
-                </li>
-                <li>
-                    <div class="field-label">@Html.LabelFor(m => signup.FirstName, T("First name"))</div>
-                    <div class="field-editor">@Html.EditorFor(m => signup.FirstName)</div>
-                </li>
-                <li>
-                    <div class="field-label">@Html.LabelFor(m => signup.LastName, T("Last name"))</div>
-                    <div class="field-editor">@Html.EditorFor(m => signup.LastName)</div>
-                </li>
-            </ul>
-        </fieldset>
-
-        <fieldset>
-            <ul>
-                <li>
-                    <div class="field-label">@Html.LabelFor(m => signup.Email, T("Email"))</div>
-                    <div class="field-editor">@Html.EditorFor(m => signup.Email)</div>
-                </li>
-                <li>
-                    <div class="field-label">@Html.LabelFor(m => signup.Password, T("Password"))</div>
-                    <div class="field-editor">@Html.EditorFor(m => signup.Password)</div>
-                </li>
-                <li>
-                    <div class="field-label">@Html.LabelFor(m => signup.RepeatPassword, T("Repeat password"))</div>
-                    <div class="field-editor">@Html.EditorFor(m => signup.RepeatPassword)</div>
-                </li>
-            </ul>
-        </fieldset>
-
-        <fieldset>
-            <ul>
-                <li>
-                    <div class="checkbox-and-label">
-                        <div class="checkbox">@Html.CheckBoxFor(m => signup.ReceiveNewsletter)</div>
-                        <div class="label">@Html.LabelFor(m => signup.ReceiveNewsletter, T("Subscribe to our mailing list"))</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="checkbox-and-label">
-                        <div class="checkbox">@Html.CheckBoxFor(m => signup.AcceptTerms)</div>
-                        <div class="label">
-                            <label for="@Html.FieldIdFor(m => signup.AcceptTerms)">
-                                @Html.Raw(T("I have read and accept the <a href=\"{0}\" target=\"_blank\">Terms and Conditions</a>", "#").ToString())
-                            </label>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </fieldset>
-
-        <footer class="commands">
-            <ul>
-                <li class="align left"><a href="#">@T("Cancel")</a></li>
-                <li class="align right"><button type="submit">@T("Next")</button></li>
-            </ul>
-        </footer>
+<section class="container">
+    <article class="conSec clearfix">
+        <section class="alLogo"> <a href="#" title=""><img src="@Href("~/Modules/MyWebShop/images/fas54fas5f_03.jpg")" alt="" /></a> </section>
+        <!--注册用户-->
+        <section class="alLoad">
+            <div class="alLoad-box">
+                <div class="conLoad">
+                    <ul>
+                        <li class="fl" id="denle"><a class="denLo-le on" href="javascript:void(0)">邮箱注册</a></li>
+                        <li class="fl" id="denri"><a class="denLo-ri" href="javascript:void(0)">手机注册</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <div class="Tab-Irep">
+                    <ul>
+                        <!--邮箱注册-->
+                        <li style="display:none" class="on Tab-Irep-phem">
+                            @using (Html.BeginFormAntiForgeryPost(Url.Action("Signup", "Checkout", new { area = "MyWebShop" })))
+                            {
+                                <div class="conIrep">
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => signup.Title, T("用户名")) :</span>
+                                        <input class="IrepZha-inp" id="signup_Title" name="signup.Title" type="text" placeholder="请输入邮箱" />
+                                    </div>
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => signup.Email, T("邮箱")) :</span>
+                                        <input class="IrepZha-inp" id="signup_Email" name="signup.Email" type="text" placeholder="请输入邮箱" />
+                                    </div>
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => signup.Password, T("密码")) :</span>
+                                        <input class="IrepZha-inp" id="signup_Password" name="signup.Password" type="password" placeholder="请输入密码" />
+                                    </div>
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => signup.RepeatPassword, T("确认密码")) :</span>
+                                        <input class="IrepZha-inp" id="signup_RepeatPassword" name="signup.RepeatPassword" type="password" placeholder="请输入密码" />
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="Irep-sbu">
+                                    <button class="Irep-inSub" type="submit">@T("注册")</button>
+                                </div>
+                                <div class="passLis">
+                                    <div class="fl">
+                                        <div class="checkbox">@Html.CheckBoxFor(m => signup.AcceptTerms)</div>
+                                        <div class="label">
+                                            <label for="@Html.FieldIdFor(m => signup.AcceptTerms)">
+                                                @Html.Raw(T("我已阅读并接受<a href=\"{0}\" target=\"_blank\">馋嘴猫条款</a>", "#").ToString())
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="fr">已注册？<a style=" color:#78168b" href="@Url.Action("Login", "Checkout", new { area = "MyWebShop" })" title="">登录</a></div>
+                                </div>
+                            }
+                        </li>
+                        <!--手机注册-->
+                        <li class="Tab-Irep-phem">
+                            @using (Html.BeginFormAntiForgeryPost(Url.Action("PhoneSignup", "Checkout", new { area = "MyWebShop" })))
+                            {
+                                <div class="conIrep">
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.Title, T("用户名")) :</span>
+                                        <input class="IrepZha-inp" id="signup_Title" name="signup.Title" type="text" placeholder="请输入邮箱" />
+                                    </div>
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.PhoneNumber, T("手机号码")) :</span>
+                                        <input class="IrepZha-inp" type="text" placeholder="请输手机号码（仅限中国大陆）" id="phoneSignup_PhoneNumber" name="phoneSignup.PhoneNumber" />
+                                        <a class="IrepZha-a" href="javascript:void(0)">获取验证码</a>
+                                    </div>
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.MessageCode, T("手机验证码")) :</span>
+                                        <input class="IrepZha-inp" type="text" placeholder="请输入验证码" id="phoneSignup_MessageCode" name="phoneSignup.MessageCode" />
+                                    </div>
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.Password, T("密码")) :</span>
+                                        <input class="IrepZha-inp" id="phoneSignup_Password" name="phoneSignup.Password" type="password" placeholder="请输入密码" />
+                                    </div>
+                                    <div class="Irep-zha">
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.RepeatPassword, T("确认密码")) :</span>
+                                        <input class="IrepZha-inp" id="phoneSignup_RepeatPassword" name="phoneSignup.RepeatPassword" type="password" placeholder="请输入密码" />
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="Irep-sbu">
+                                    <button class="Irep-inSub" type="submit">@T("注册")</button>
+                                </div>
+                                <div class="passLis">
+                                    <div class="fl">
+                                        <div class="checkbox">@Html.CheckBoxFor(m => phoneSignup.AcceptTerms)</div>
+                                        <div class="label">
+                                            <label for="@Html.FieldIdFor(m => phoneSignup.AcceptTerms)">
+                                                @Html.Raw(T("我已阅读并接受<a href=\"{0}\" target=\"_blank\">馋嘴猫条款</a>", "#").ToString())
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="fr">已注册？<a style=" color:#78168b" href="@Url.Action("Login", "Checkout", new { area = "MyWebShop" })" title="">登录</a></div>
+                                </div>
+                            }
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </article>
-}
+</section>

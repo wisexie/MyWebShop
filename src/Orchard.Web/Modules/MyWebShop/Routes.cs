@@ -19,7 +19,21 @@ namespace MyWebShop
         public IEnumerable<RouteDescriptor> GetRoutes()
         {
             return new[] {
- 
+             new RouteDescriptor {
+                         Priority = 98,
+                        Route = new Route(
+                            "Product/{category}/{title}",
+                            new RouteValueDictionary {
+                                                        {"area", "MyWebShop"},
+                                                        {"controller", "ProductInfo"},
+                                                        {"action", "Index"}
+                                                    },
+                            new RouteValueDictionary (),
+                            new RouteValueDictionary {
+                                                        {"area", "MyWebShop"}
+                                                    },
+                            new MvcRouteHandler())
+                    },
                 new RouteDescriptor {
                     Priority = 99,
                     Route = new Route( 
@@ -35,7 +49,6 @@ namespace MyWebShop
                         },
                         new MvcRouteHandler())
                 }
- 
  
  
             };

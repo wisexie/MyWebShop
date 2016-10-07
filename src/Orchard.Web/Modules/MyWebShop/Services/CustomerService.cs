@@ -24,7 +24,7 @@ namespace MyWebShop.Services
             _clock = clock;
         }
 
-        public CustomerPart CreateCustomer(string email, string password)
+        public CustomerPart CreateCustomer(string email,string phoneNumber, string password)
         {
             // New up a new content item of type "Customer"
             var customer = _orchardServices.ContentManager.New("Customer");
@@ -38,7 +38,7 @@ namespace MyWebShop.Services
             // Set some properties of the customer content item (via UserPart and CustomerPart)
             userPart.UserName = email;
             userPart.Email = email;
-            userPart.NormalizedUserName = email.ToLowerInvariant();
+            userPart.NormalizedUserName = phoneNumber;
             userPart.Record.HashAlgorithm = "SHA1";
             userPart.Record.RegistrationStatus = UserStatus.Approved;
             userPart.Record.EmailStatus = UserStatus.Approved;

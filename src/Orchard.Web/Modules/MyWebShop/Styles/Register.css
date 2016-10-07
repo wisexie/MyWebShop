@@ -1,0 +1,83 @@
+﻿
+/*-------------------------------------------------内容部分---------------------------------------------------*/
+.conSec { width:928px; margin:60px auto; }
+
+.alLogo { float:left; width:355px; }
+
+.alLoad { float:left; border-width:1px 1px 1px 0; border-style:solid; border-color:#ccc; height:560px }
+
+.conLoad { width:100%; margin:30px auto 0; text-align:center; height:45px; }
+
+.conLoad ul li { }
+
+.conLoad ul li a { text-align:center; height:42px; line-height:42px; font-size:18px; color:#888; display:block; border-style:solid; width:216px; transition:none !important; letter-spacing:1px; }
+
+/*.conLoad ul li a.on{border-width:3px 3px 0 3px; border-style:solid;height:40px; border-color:#520062; }*/
+.conLoad ul li a.on { color:#520062; font-weight:bold; }
+
+.denLo-le { border-width:1px 3px 3px 1px; border-color:#ccc #520062 #520062 #ccc; }
+
+.denLo-ri { border-width:1px 1px 3px 3px; border-color:#ccc #ccc #520062 #520062; }
+
+#denle a.on { border-width:3px 0 0 3px; border-style:solid; height:40px; border-color:#520062; }
+
+#denri a.on { border-width:3px 3px 0 0; border-style:solid; height:40px; border-color:#520062; }
+
+.alLoad-box { width:440px; margin:0 50px; }
+
+.conIrep { width:100%; margin:0 auto; }
+
+.Irep-zha { border:1px solid #ccc; background:#fff; height:44px; margin:30px auto 0 }
+
+.IrepZha-le { float:left; font-size:16px; color:#666; padding-left:15px; height:44px; line-height:44px; }
+
+.IrepZha-inp { float:left; font-size:16px; height:44px; width:280px; background:#fff; border:none 0; padding-left:10px; color:#8c1ea1 }
+
+.Irep-sbu { width:100%; margin:50px auto 20px; }
+
+.Irep-inSub { width:100%; border:1px solid #520062; background:#520062; border-radius:3px; text-align:center; height:50px; line-height:45px; font-size:25px; color:#fff; font-weight:bold; cursor:pointer; letter-spacing:10px; transition:all 0.3s ease 0s; }
+
+.Irep-inSub:hover { background:#6e207d }
+.Irep-inSub:active { background:#2e0c34 }
+
+.passLis { width:100%; margin:20px auto; height:20px; }
+
+.passLis-che { vertical-align:middle; border:1px solid #78168b; }
+
+.passLis-lab { vertical-align:middle; font-size:14px; color:#000; padding-left:5px; }
+
+.passLis-lab a { color:#78168b }
+
+.Irep-heZU { width:100%; margin:10px auto; }
+
+.Irep-heZU p { width:100%; }
+
+.Irephez-ul { margin:10px auto 0; width:100%; height:38px; }
+
+.Irephez-ul li a { display:block; width:38px; height:38px; background:url(../images/ic.png) no-repeat; margin-right:10px; opacity:0.5 }
+
+.Irephez-ul li a:hover { opacity:1 }
+
+#weibo { background-position:0 0; }
+
+#tenQQ { background-position:-48px 0 }
+
+#weix { background-position:-96px 0 }
+
+#zhuf { background-position:-143px 0 }
+
+.Tab-Irep { width:440px; overflow:hidden; margin: 0 auto; }
+
+.Tab-Irep-phem { width:100%; height:442px; }
+
+.Irep-passfind { width:100%; margin:30px auto }
+
+.Irep-verrift { width:220px; border:1px solid #ccc; background:#fff; height:44px; margin:0 auto }
+
+.IrepZha-find { float:left; font-size:16px; height:44px; width:140px; background:#fff; border:none 0; padding-left:10px; color:#8c1ea1 }
+
+.Find-this { display:block; background:url(../images/fas4654.png) center 8px no-repeat; border:1px solid #ccc; font-size:12px; color:#999; line-height:70px; text-align: center; float:left; width:45px; height:44px; }
+
+.IrepZha-a { float:right; width:80px; height:36px; display:block; background:#520062; border:1px solid #520062; border-radius:6px; text-align:center; line-height:36px; font-size:14px; color:#fff; margin:3px }
+
+.IrepZha-a:hover { background:#8a279d;border:1px solid #8a279d; }

@@ -1,0 +1,230 @@
+﻿
+.conSec { width:1090PX; margin:0 auto 50px; }
+
+.conSec1 { width:100%; height:22px; padding:15px 0; background:#f6f6f6 }
+
+.secNav { width:1090px; margin:0 auto; }
+
+.secNav ul li { height:22px; border-right:1px solid #ccc; }
+
+.secNav ul li a { display:blockl; font-size:16px; color:#333333; padding:0 15px 0 40px; letter-spacing:1px }
+
+.secNicon { display:block; width:22px; height:22px; background-position:-196px -33px !important; float:right; margin:0 10px 0 40px; }
+
+.conSec-nav, .itemsGoodsList, .iglRibar-a, .iglRibar-hd, .igcon-tit, .igcon-tit1, .igcon-price, .price-bn, .buyGoods, .buyGoods-opt, .buyGoods-sub, .conMinute, .hotGoods, .hotGoods-top, .hotBuy-box { width:100%; margin:0 auto; }
+
+.conSec-nav { height:41px; }
+
+.csNav-box { float:left; line-height:41px; padding-left:10px; }
+
+.csNav-box span { padding:0 3px; font-size:14px; color:#000 }
+
+.csNav-box a { font-size:14px; color:#000; }
+
+.itemsGoodsList { height:660px; border:1px solid #ccc; background:#fafafa; }
+
+.iglRibar { width:534px; float:left; }
+
+.iglRibar-a { overflow:hidden; height:535px; }
+
+.iglRibar-a ul li a { width:534px; display:block; }
+
+.iglRibar-hd { height:75px; overflow:hidden; width:479px !important; padding:25px 0; }
+
+.iglRibar-hd ul li { margin:0 11px }
+
+.iglRibar-hd ul li a { width:69px; height:68px; border:3px solid #fff; display:block }
+
+.iglRibar-hd ul li a img { opacity:0.4; transition:all 0.3s ease 0s; }
+
+.iglRibar-hd ul li a.on .THopa { opacity:1 }
+
+.iglRibar-hd ul li a.on { border:3px solid #520062; }
+
+.NoMargin { margin-right:0 !important }
+
+.igLebar { float:right; border-left:1px solid #ccc; width:553px; background:#fafafa }
+
+.igLebar-box { width:451px; padding:24px 40px }
+
+.igLebar-top { width:451px; margin:0 auto 30px; background:url(../images/as5f4as5_06.jpg) no-repeat; height:48px; }
+
+.igLebar-con { margin:0 auto; overflow:hidden; border-bottom:1px solid #ccc; }
+
+.igcon-tit { color:#666666; font-size:18px; }
+
+.igcon-tit1 { font-size:40px; letter-spacing:1px; color:#333; font-weight:bold; padding:15px 0; line-height:40px; }
+
+.igcon-price { padding:20px 0 }
+
+.price-img { width:119px; height:94px; background:url(../images/as5f4as5_10.png) no-repeat; font-size:40px; color:#fff; font-weight:bold; text-align:center; line-height:74px; display:block; }
+
+.price-ma { margin-left:20px; }
+
+.price-ma dd { font-size:40px; color:#520062; font-weight:bold; text-align:left; }
+
+.price-ma dt del { font-size:18px; color:#999; text-align:left; }
+
+.price-ma dt { padding:5px 0 }
+
+.price-buyp { font-size:14px; color:#666; padding-top:30px; }
+
+.price-bn { font-size:14px; color:#666; padding:30px 0 }
+
+.buyGoods { padding:35px 0 }
+
+.buyGoods-ma { font-size:14px; color:#666; }
+
+.buyGoods-opt { padding:20px 0 }
+
+.opt1 { width:100%; padding-left:10px; border:1px solid #ccc; background:#fff; }
+
+.buyGoods-sub { padding:29px 0 }
+
+.aSub { display:block; width:182px; font-size:25px; margin-left:20px; float:right; height:68px; background:#660066; color:#fff; text-align:center; line-height:68px; }
+
+.aSub:hover { background:#8c288c }
+
+.shoCa { width:60px; height:66px; display:block; border:1px solid #ccc; background:#fff url(../images/fasf2f5.png) center 10px no-repeat; font-size:20px; color:#333; text-align:center; line-height:100px; float:right }
+
+.hotBuy { width:100%; margin:0 auto 40px; }
+
+.hotBuy-box { overflow:hidden; }
+
+.hbb-h2 { font-size:18px; width:100%; margin:10px auto; font-weight:bold; color:#000; padding:0 5px }
+
+.hbb-h2 i { display:block; width:15px; height:18px; background:url(../images/fs6a5f46d5s4f6_23.jpg) no-repeat; margin: 1px 7px 0 5px; float:left }
+
+.hotBuyDh-box { margin:0 auto; border:1px solid #ccc; height:315px; overflow:hidden; position:relative; }
+
+.hotBuyDh-hd { width:961px; margin:0 auto; height:30px; }
+
+.hotBuyDh-bd { width:961px; margin:0 auto; overflow:hidden; height:265px; }
+
+.hotBuyDh-bd ul li { width:175px; float:left; margin:0 8.5px; }
+
+.hbd-img { width:100%; height:174px; margin:0 auto; }
+
+.hbd-p { width:100%; margin:30px auto 10px; }
+
+.fioiokj { width:100%; margin:10px auto; font-size:14px; color:#000; }
+
+.fioiokj a { font-size:14px; color:#000; width:175px; display:block; overflow:hidden; word-break:keep-all; text-overflow:ellipsis; }
+
+.opoine { width:100%; margin:0 auto; }
+
+.faiioop-a { display:block; width:72px; height:18px; background:#520062; font-size:13px; color:#fff; text-align:center; line-height:18px; float:left }
+
+.fasj-span { font-size:16px; color:#520062; font-weight:bold; margin-left:3px; }
+
+.ai-con { width:22px; height:34px; display:block; background:url(../images/ai-con.png) no-repeat; position:absolute; opacity:0.5 }
+
+.ai-con:hover { opacity:1 }
+
+#hb-pve { background-position:-1px -6px; top:35%; left:30px; }
+
+#hb-pve:hover { background-position:-3px -55px; }
+
+#hb-nex { background-position:-27px -6px; top:35%; right:30px; }
+
+#hb-nex:hover { background-position:-30px -54px; }
+
+.pageState span { color:#86129d; font-weight:bold; font-size:14px; }
+
+.pageState { padding:5px 5px 0; float:right }
+
+.conMinute { }
+
+.conMinute-hd { margin:0 auto; height:43px; border-width:2px 1px 1px 1px; border-style:solid; border-color:#520062 #ccc #ccc #ccc; background:#f6f3f3; }
+
+.conMinute-hd ul li { float:left; }
+
+.conMinute-hd ul li a { display:block; border-right:1px solid #ccc; height:43px; line-height:43px; font-size:14px; color:#333; padding:0 25px }
+
+.conMinute-hd ul li a.on { background:#fff; display:block !important }
+
+.conMinute-bd { overflow:hidden; border-width:0 1px 1px 1px; border-style:solid; border-color:#ccc #ccc #ccc #ccc; }
+
+.conMinute-bd ul li { float:left; width:100%; overflow:hidden; display:none; }
+
+.Minute-img1 { width:759px; margin:10px auto 30px; }
+
+.Minute-img { width:1088px; margin:20px auto 0; overflow:hidden }
+
+.Minute-img2 { width:758px; margin:0 auto; }
+
+.minute-ts { display:block; background:url(../images/fas54f_03.jpg) no-repeat; width:17px; height:16px; float:right; margin:12px 0 0 5px }
+
+.hotGoods { margin:20px auto !important }
+
+.hotGoods-top { height:28px; padding:10px 0 }
+
+.hotGoods-top span { font-size:18px; color:#333; line-height:29px; padding-left:5px; }
+
+.hotGoods-top span i { display:block; background:url(../images/fas85f4as_03.jpg) no-repeat; width:24px; height:28px; float:left; }
+
+.hotGoods-box { height:526px; margin:0 auto; overflow:hidden; border:1px solid #ccc; position:relative }
+
+.goItmsCon { width:312px; border:1px solid #ccc; padding:7px; margin-right:;
+transition: border-color 0.4s ease-in-out 0s; position:relative }
+
+.goI-ff { width:305px; overflow:hidden; margin-left:5px; }
+
+.goI-ff p { text-align:left; line-height:17px; width:100%; }
+
+.goItmsCon img { margin:0 auto; vertical-align:text-top }
+
+.luasex { width:100%; color:#666; padding:2px 0; }
+
+.size-14 { font-size:14px; color:#000; font-weight:bold; padding:15px 0 }
+
+.aniu-aa { width:100%; display:block; padding:35px 0 8px 0; }
+
+.aniu-aa dl dd, dt { line-height:14px; font-size:13px; }
+
+.aniu-aa dl dd { color:#3399ff }
+
+.faslij { width:26px; height:26px; background:url(../images/f4as8.png) no-repeat; display:block; border:1px solid #ccc; font-size:9px; color:#999; line-height:40px; text-align:center; background-position:center 3px }
+
+.faslij:hover { border-color:#c04fc0; color:#c04fc0; }
+
+.wh-ty { height:28px; display:block; line-height:28px; color:#fff; font-size:15px; }
+
+.w654a { width:72px; background:#999999; transition: all 0.4s ease 0s; }
+
+.w5a4a { width:101px; background:#660066; transition: all 0.4s ease 0s; }
+
+.fr-5 { margin-left:5px; }
+
+.goItmsCon:hover { border-color:#660066; transition: border-color 0.4s ease-in-out 0s; }
+
+.ml10 { margin-left:
+}
+
+.daoj-ti { width:100%; border-top:1px solid #ccc; padding:10px 0; font-size:13px; }
+
+.daoj-ti span { float:right; }
+
+.co-ff33 { color:#ff0066; font-weight:bold; }
+
+.ml13 { margin-left:13px; }
+
+.whQia { display:block; background-position:-65px -28px !important; width:20px; height:18px; float:left; margin:4px 5px 0 5px }
+
+.w5a4a:hover { background:#831883 }
+
+.goItmsCon-fix { position:absolute; top:-7px; left:15px; width:71px; height:70px; background-position:-22px -125px !important }
+
+.goItmsCon-fix p { font-size:24px; color:#fff; font-weight:bold; padding:35px 30px 30px 25px; }
+
+.hotGoods-bd { width:1045px; margin:30px auto !important; }
+
+.hotGoods-bd li { float:left; margin:0 10px; }
+
+.pverNext { position:absolute; top:6px; right:25px; z-index:9; font-size:16px; }
+
+.pverNext a { font-size:20px; font-weight:bold; color:#999; width:15px; height:15px; display:block; float:left; padding:0 5px; }
+
+.pverNext a:hover { color:#000 }
+
+.tempWrap { margin:0 auto; }

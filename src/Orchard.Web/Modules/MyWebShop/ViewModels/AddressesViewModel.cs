@@ -19,16 +19,16 @@ namespace MyWebShop.ViewModels
             var address = InvoiceAddress;
 
             if (string.IsNullOrWhiteSpace(address.AddressLine1))
-                yield return new ValidationResult("Addressline 1 is a required field", new[] { "InvoiceAddress.AddressLine1" });
+                yield return new ValidationResult("请填写地址", new[] { "InvoiceAddress.AddressLine1" });
 
             if (string.IsNullOrWhiteSpace(address.Zipcode))
-                yield return new ValidationResult("Zipcode is a required field", new[] { "InvoiceAddress.Zipcode" });
+                yield return new ValidationResult("请填写邮编", new[] { "InvoiceAddress.Zipcode" });
 
             if (string.IsNullOrWhiteSpace(address.City))
-                yield return new ValidationResult("City is a required field", new[] { "InvoiceAddress.City" });
+                yield return new ValidationResult("请填写城市", new[] { "InvoiceAddress.City" });
 
             if (string.IsNullOrWhiteSpace(address.Country))
-                yield return new ValidationResult("Country is a required field", new[] { "InvoiceAddress.Country" });
+                yield return new ValidationResult("请添加国家", new[] { "InvoiceAddress.Country" });
         }
 
     }

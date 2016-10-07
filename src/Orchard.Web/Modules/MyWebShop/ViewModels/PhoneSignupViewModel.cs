@@ -6,13 +6,16 @@ using System.Web;
 
 namespace MyWebShop.ViewModels
 {
-    public class SignupViewModel : IValidatableObject 
+    public class PhoneSignupViewModel : IValidatableObject 
     {
         [StringLength(10), Required, Display(Name = "用户名")]
         public string Title { get; set; }
 
-        [StringLength(255), Required, DataType(DataType.EmailAddress), Display(Name = "邮箱")]
-        public string Email { get; set; }
+        [StringLength(255), Required, DataType(DataType.PhoneNumber), Display(Name = "手机号码")]
+        public string PhoneNumber { get; set; }
+
+        [StringLength(255), Required, Display(Name = "手机验证码")]
+        public string MessageCode { get; set; }
 
         [StringLength(255), Required, DataType(DataType.Password), Display(Name = "密码")]
         public string Password { get; set; }

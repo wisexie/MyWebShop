@@ -1,0 +1,76 @@
+﻿@using Orchard.MediaLibrary.Models
+@{
+    Style.Require("MyWebShop.Goods");
+    Script.Require("MyWebShop.ShoppingCart");
+    var item = Model.product;
+    IList<MediaPart> productImages = Model.productImages;
+    var title = Model.title;
+    var productBody = Model.productBody;
+}
+<section class="container">
+    <article class="conSec clearfix">
+        <section class="itemsGoodsList">
+            <div class="iglRibar">
+                <div class="iglRibar-a">
+                    <ul>
+                        @for (var i = 0; i < productImages.Count; i++)
+                        {
+                            <li class="fl"><a href="#" title="@productImages[i].Caption"><img src="@productImages[i].MediaUrl" /></a></li>
+                        }
+
+
+                    </ul>
+                </div>
+                <div class="iglRibar-hd">
+                    <ul>
+                        @for (var i = 0; i < productImages.Count; i++)
+                        {
+                            <li class="fl"><a href="#" title="@productImages[i].Caption" class="@i==0?'on':''"><img class="THopa" src="@productImages[i].MediaUrl" /></a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="igLebar">
+                <div class="igLebar-box">
+                    <div class="igLebar-top"></div>
+                    <div class="igLebar-con">
+                        <p class="igcon-tit">@title</p>
+                        <div class="igcon-price">
+                            <dl class="price-ma fl">
+                                <dd>@item.UnitPrice.ToString("c")</dd>
+                            </dl>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p class="price-bn">数量有限，赶紧带我回家吧！</p>
+                    </div>
+                    <div class="buyGoods">
+                        @using (Html.BeginFormAntiForgeryPost(Url.Action("Add", "ShoppingCart", new { id = item.Id, area = "MyWebShop" })))
+                        {
+                            <p class="buyGoods-sub shoppingcartAdd"><a class="aSub" href="#">立即购买&nbsp;&nbsp;></a></p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="conMinute">
+            <div class="conMinute-hd">
+                <ul>
+                    <li><a class="on" href="javascript:void(0)" title="">商品详情<i class="minute-ts"></i></a></li>
+                    <li><a href="javascript:void(0)" title="">商品评价</a></li>
+                </ul>
+            </div>
+            <div class="conMinute-bd">
+                <ul>
+                    <li style="display:block">
+                      <div>@Html.Raw(productBody.Text)</div>
+                    </li>
+                    <li style="font-size:18px; text-align:center; padding:20px 0">请添加内容！</li>
+                </ul>
+            </div>
+        </section>
+    </article>
+</section>
+<!--浮动导航-->
+<aside class="fixNav h_nav_f1">
+    <div class="fixNav-bd"><a class="fixNavBd-t c-Icon" title="返回首页" href="javascript:window.scrollTo('0','0')"></a><a class="fixNavBd-g c-Icon" title="" href="javascript:void(0)"></a></div>
+</aside>

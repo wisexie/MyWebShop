@@ -59,3 +59,157 @@ ul.address-fields {
     margin: 0;
     list-style: none;   
 }
+
+.conSec { width:1090PX; margin:0 auto; }
+
+.boxNav { width:100%; margin:30px auto 40px; }
+
+.boxNav-bar { overflow:hidden; }
+
+.boxNav-bar dl { float:left; display:inline; }
+
+.bnb-D1 { height:60px; }
+
+.boxNav-bar dl dd { padding-left:5px; font-size:16px; color:#999; }
+
+.bnb-D1 dt { height:33px; background:url(../images/fas6f5a12.png) no-repeat; width:272px; }
+
+.bnb-D1 dd { color:#86129d !important }
+
+.bnb-D2 dt { height:33px; background:url(../images/fas9f8as48f.png) no-repeat; width:271px; }
+
+.bnb-D3 dt { height:33px; background:url(../images/d8h74df984h.png) no-repeat; width:271px; }
+
+.bnb-D4 dt { height:33px; background:url(../images/fa3s2f13a.png) no-repeat; width:271px }
+
+.Step-one, .Step-two, .Step-three, .Step-four, .Pay-fans, .Pay-time, .Pay-list { width:100%; margin:30px auto; }
+
+.stitAdd { border-bottom:2px solid #520062; font-size:18px; color:#520062; line-height:40px; padding-top:9px; width:1046px; margin-left:10px }
+
+.ncc-receipt-info { color: #777; margin: 10px 0; padding: 9px 38px; }
+
+.ncc-receipt-info-title { display: block; font-size: 0; height: 22px; padding: 4px 0; }
+
+.ncc-receipt-info-title h3, .ncc-receipt-info-title a { color: #000; display: inline-block; font: 100 14px/20px arial, "microsoft yahei"; letter-spacing: normal; vertical-align: middle; word-spacing: normal; }
+
+#address_btns_wrap { clear: both; height: 30px; padding-top: 15px; }
+
+#address_btns_wrap #add_address_btn { border: 1px solid #cfcfcf; color: #333333; display: block; float: left; height: 26px; line-height: 26px; width: 100px; }
+
+#address_btns_wrap #add_address_btn:hover { border:1px solid #650c76; color:#650c76 }
+
+#add_address_btn i { display:block; width:12px; height:11px; background:url(../images/8yr4df_03.jpg) no-repeat; float:left; margin:7px 5px 0 5px }
+
+#addr_div_48 { float:left; overflow:hidden; width:287px; height:151px; }
+
+.address_lbl { background: url("../images/fas56f4as56.png") no-repeat scroll center top rgba(0, 0, 0, 0); border: medium none; height: 121px; position: relative; width: 257px; display:block; cursor:pointer; padding:15px }
+
+.address_lbl_n { width:100%; margin:0 auto; font-size:14px; color:#666; margin:8px 0 }
+
+#sln-ts { text-align:right; margin:0 !important }
+
+#sln-ts a { color:#520062; padding:0 3px }
+
+#sln-ts2 { height:40px }
+
+#sln-ts1 { margin-top:0 !important }
+
+.Pay-fans { }
+
+#stitAdd1043 { width:1043px; }
+
+.stitAdd-receipt { padding:10px 40px; margin:10px 0; }
+
+#payment_code_alipay, #payment_code_dao, #payment_code_free, #payment_code_pc, #payment_code_holiday { display: inline-block; font-size: 12px; letter-spacing: normal; vertical-align: middle; word-spacing: normal; margin:0 5px; }
+
+.ncc-candidate-items li { display: block; line-height: 20px; margin-top: -1px; min-height: 20px; padding: 5px 0 6px; }
+
+.payment_code_albe { font-size: 14px; letter-spacing: normal; vertical-align: middle; word-spacing: normal; display: inline-block; line-height: 20px; color:#000; cursor:pointer; }
+
+#stitAdd1045 { width:1045px; }
+
+#stitAdd1035 { width:1042px; }
+
+.hope-times { height:86px; font-size:14px; color:#000; padding: 5px 0; }
+
+.hope-checks { float:left; padding:0 10px }
+
+.tableBox-bar { padding:0 48px; margin:0 auto; overflow:hidden }
+
+.tbb-h1 { font-size:14px; color:#333; width:100%; margin:20px auto; }
+
+.yhhBox { margin:10px auto; height:39px; font-size:14px; line-height:39px; background:#f6f6f6; color:#333; border:1px solid #ccc }
+
+.yhhBox i { display:block; width:23px; height:14px; background:url(../images/fs6a5f46d5s4f6_11.jpg) no-repeat; vertical-align: middle; float:left; margin: 12px 7px 0; }
+
+.sppListBox { margin:5px auto 0; }
+
+.sppListBox tr th, td { text-align:center; font-size:14px; color:#000; line-height:22px; }
+
+.sppListBox_bar { border-width:0 1px; border-color:#ccc; border-style:solid; }
+
+.sppListBox_bar th { border-width:1px 0; border-color:#ccc; border-style:solid; background:#f7f7f7 }
+
+.sppListBox_bar1 { border-width:0 1px; border-color:#ccc; border-style:solid; }
+
+.sppListBox_bar1 td { border-bottom:1px solid #ccc; }
+
+.reduce { background-color: #fff; border: 1px solid #c8c7cc; display: inline-block; font-family: "Century Gothic"; font-size: 13px; height: 10px; line-height: 10px; padding: 7px 0; text-align: center; vertical-align: middle; width: 15px; float: left; background:#fafafa }
+
+#goodsAmountDetail { border-color: #c8c7cc; border-style: solid; border-width: 1px 0; display: inline-block; font-family: "Century Gothic"; font-size: 13px; height: 10px; line-height: 10px; padding: 7px 0; text-align: center; vertical-align: middle; width: 25px; float: left; }
+
+.sppListBox_cc { margin:0 auto; border-width:0 1px; border-color: #c8c7cc; border-style: solid; }
+
+.sppListBox_cc p { font-size:14px; line-height:34px; height:34px; text-align:right; padding-right:35px; color:#000 }
+
+.sppListBox_rease { margin:0 auto; height:57px; background:#f7f7f7; border-color: #c8c7cc; border-style: solid; border-width: 1px; }
+
+.Box_reaseFl { padding:14px 0; margin-left:8px; }
+
+.Box_reaseFl p { font-size:13px; color:#000; line-height:28px; }
+
+.Box_reaseIpu { width:229px; height:28px; border:1px solid #ccc; background:#fff; padding-left:10px; }
+
+.Box_reaseIpu:focus { border-color:#b28fb8; }
+
+.Box_reaseSub { width:113px; height:25px; display:block; background:#616161; border:1px solid #616161; border-radius:5px; text-align:center; font-size:13px; line-height:22px; color:#fff; margin:2px 0 0 8px; cursor:pointer; transition:all 0.3s ease 0s }
+
+.Box_reaseSub:hover { background:#7f7a7a; border-color:#7f7a7a }
+
+.Box_reaseRi { height:23px; padding:17px 35px }
+
+.Box_reaseRi { line-height:23px; font-size:13px; color:#000 }
+
+.Box_buycar { margin:0 auto; height:57px; }
+
+.Box_buycartia { font-size:13px; color:#000; }
+
+.Box_buycartia:hover { color:#86129d }
+
+.Box_buycartia i { float:left; display:block; width:11px; height:14px; background:url(../images/fas54fa5_03.jpg) no-repeat; margin:3px 5px 0 7px }
+
+#mones-pay { text-align:right }
+
+.buyMyg, .clearBuyc { padding:33px 0 }
+
+.buyMyg a { border-radius:7px; border:1px solid; float:left; display:block; width:139px; height:27px; font-size:16px; letter-spacing:1px; color:#fff; line-height:25px; text-align:center; }
+
+.Cont { border-color:#616161 !important; background:#616161; }
+
+.Cont:hover { background:#7f7a7a; border-color:#7f7a7a !important; }
+
+.goPay { border-color:#520062 !important; background:#520062; }
+
+.goPay:hover { background:#751688; border-color:#751688 !important; }
+
+
+
+
+
+
+
+
+
+
+
+

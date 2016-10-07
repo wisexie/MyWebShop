@@ -10,74 +10,96 @@
 }
 @if (!items.Any())
 {
-    <p>You don't have any items in your shopping cart.</p>
-    <a class="button" href="#">Continue shopping</a> }
+    <p>你的购物车没有任何商品.</p>
+    using (Html.BeginFormAntiForgeryPost(Url.Action("Update", "ShoppingCart", new { area = "MyWebShop" })))
+    {
+        <button type="submit" name="command" value="ContinueShopping" class="Cont">继续购物</button>
+    }
+}
 else
 {
-    <article class="shoppingcart">
-        @using (Html.BeginFormAntiForgeryPost(Url.Action("Update", "ShoppingCart", new { area = "MyWebShop" })))
-        {
-            <table>
-                <thead>
-                    <tr>
-                        <td>Article</td>
-                        <td class="numeric">Unit Price</td>
-                        <td class="numeric">Quantity</td>
-                        <td class="numeric">Total Price</td>
-                        <td class="action"></td>
-                    </tr>
-                </thead>
-                <tbody>
-                    @for (var i = 0; i < items.Count; i++)
-                    {
-                        var item = items[i];
-                        var product = (ProductPart)item.ProductPart;
-                        var title = item.Title ?? "(no routepart attached)";
-                        var quantity = (int)item.Quantity;
-                        var unitPrice = product.UnitPrice;
-                        var totalPrice = quantity * unitPrice;
-                        <tr>
-                            <td>@title</td>
-                            <td class="numeric">@unitPrice.ToString("c")</td>
-                            <td class="numeric">
-                                <input name="@string.Format("items[{0}].ProductId", i)" type="hidden" value="@product.Id" />
-                                <input name="@string.Format("items[{0}].IsRemoved", i)" type="hidden" value="false" />
-                                <input name="@string.Format("items[{0}].Quantity", i)" type="number" value="@quantity" />
-                            </td>
-                            <td class="numeric">@totalPrice.ToString("c")</td>
-                            <td class="action"><a class="icon delete" href="#"></a></td>
-                        </tr>
-                    }
-
-                </tbody>
-                <tfoot>
-                    <tr><td colspan="5">&nbsp;</td></tr>
-                    <tr class="separator">
-                        <td class="update" colspan="5"><button name="command" value="Update" type="submit">Update</button></td>
-                    </tr>
-                    <tr>
-                        <td class="numeric label" colspan="3">Subtotal:</td>
-                        <td class="numeric">@subtotal.ToString("c")</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="numeric label" colspan="3">VAT (19%):</td>
-                        <td class="numeric">@vat.ToString("c")</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="numeric label" colspan="3">Total:</td>
-                        <td class="numeric">@total.ToString("c")</td>
-                        <td></td>
-                    </tr>
-                </tfoot>
-            </table>
-            <footer>
-                <div class="group">
-                    <div class="align left"><button type="submit" name="command" value="ContinueShopping">Continue shopping</button></div>
-                    <div class="align right"><button type="submit" name="command" value="Checkout">Proceed to checkout</button></div>
-                </div>
-            </footer>
-        }
-    </article>
+    <section class="container">
+        <article class="conSec clearfix">
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("Update", "ShoppingCart", new { area = "MyWebShop" })))
+            {
+                <section class="boxNav">
+                    <div class="boxNav-bar">
+                        <dl class="bnb-D1">
+                            <dt></dt>
+                            <dd>第一步:我的购物车</dd>
+                        </dl>
+                        <dl class="bnb-D2">
+                            <dt></dt>
+                            <dd>第二步:填写核对订单信息</dd>
+                        </dl>
+                        <dl class="bnb-D3">
+                            <dt></dt>
+                            <dd>第三步:成功提交订单</dd>
+                        </dl>
+                    </div>
+                </section>
+                <section class="tableBox">
+                    <div class="tableBox-bar">
+                        <h1 class="tbb-h1"><font color="#86129d">温馨提示：</font>1.请您提交订单后3小时内完成支付或电话确认，逾时订单将被取消。 2.促销优惠将按比例分摊至商品小计中。</h1>
+                        <table class="sppListBox" width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr class="sppListBox_bar">
+                                <th width="7%" height="35" scope="col">商品信息</th>
+                                <th width="12%" scope="col">&nbsp;</th>
+                                <th width="28%" scope="col">&nbsp;</th>
+                                <th width="12%" scope="col">单价</th>
+                                <th width="12%" scope="col">数量</th>
+                                <th width="10%" scope="col">小计</th>
+                                <th scope="col">操作</th>
+                            </tr>
+                            @for (var i = 0; i < items.Count; i++)
+                            {
+                                var item = items[i];
+                                var product = (ProductPart)item.ProductPart;
+                                var title = item.Title ?? "(no routepart attached)";
+                                var quantity = (int)item.Quantity;
+                                var unitPrice = product.UnitPrice;
+                                var totalPrice = quantity * unitPrice;
+                                var productImages = item.ProductImage != null ? item.ProductImage.MediaUrl : "";
+                                var productLink = item.Link;
+                                <tr class="sppListBox_bar1">
+                                    <td height="101"><a href="@item.Link" title="@title"><img src="@productImages" /></a></td>
+                                    <td class="tl" height="102" style="vertical-align: text-top;">
+                                        <p style="padding-top:5px;">@title</p>
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td>@unitPrice.ToString("c")</td>
+                                    <td width="12%">
+                                        <p style=" padding-left:28%">
+                                            <a class="reduce" href="javascript:;" id="goodsAmountDecreaseDetail">–</a>
+                                            <input name="@string.Format("items[{0}].ProductId", i)" type="hidden" value="@product.Id" />
+                                            <input name="@string.Format("items[{0}].IsRemoved", i)" type="hidden" value="false" />
+                                            <input name="@string.Format("items[{0}].Quantity", i)" id="goodsAmountDetail" type="number" value="@quantity" />
+                                            <a class="add reduce" href="javascript:;" id="goodsAmountIncreaseDetail">+</a>
+                                        </p>
+                                    </td>
+                                    <td>@totalPrice.ToString("c")</td>
+                                    <td><a href="#" title="" class="delete">删除</a></td>
+                                </tr>
+                            }
+                        </table>
+                        <div class="sppListBox_rease">
+                            <div class="fr Box_reaseRi">
+                                @*<button name="command" value="Update" type="submit">Update</button>*@
+                                <p class="fl">总金额（不含运费）：</p>
+                                <span class="fl" style=" font-size:20px; color:#86129d; font-weight:bold;">@total.ToString("c")</span>
+                            </div>
+                        </div>
+                        <div class="Box_buycar">
+                            <div class="fr buyMyg">
+                                <button type="submit" name="command" value="ContinueShopping" class="Cont">继续购物</button>
+                                <button type="submit" name="command" value="Checkout" class="goPay">立即结账</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            }
+        </article>
+    </section>
 }

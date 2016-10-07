@@ -1,6 +1,8 @@
 ﻿using MyWebShop.Services;
 using MyWebShop.ViewModels;
 using Orchard;
+using Orchard.ContentManagement.Aspects;
+using Orchard.MediaLibrary.Fields;
 using Orchard.Mvc;
 using Orchard.Themes;
 using System;
@@ -8,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Orchard.ContentManagement;
 
 namespace MyWebShop.Controllers
 {
@@ -32,7 +35,7 @@ namespace MyWebShop.Controllers
             // Redirect the user to the Index action (yet to be created)
             return RedirectToAction("Index");
         }
-         [Themed] 
+        [Themed]
         public ActionResult Index()
         {
 
@@ -40,7 +43,9 @@ namespace MyWebShop.Controllers
                   Products: _shoppingCart.GetProducts().Select(p => _services.New.ShoppingCartItem(
                       ProductPart: p.ProductPart,
                       Quantity: p.Quantity,
-                      Title: _services.ContentManager.GetItemMetadata(p.ProductPart).DisplayText)
+                      Title: _services.ContentManager.GetItemMetadata(p.ProductPart).DisplayText,
+                      ProductImage: p.ProductPart.ContentItem.Parts.SelectMany(x => x.Fields.OfType<MediaLibraryPickerField>()).First().MediaParts.FirstOrDefault(),
+                      Link: "../"+p.ProductPart.ContentItem.As<IAliasAspect>().Path)
                   ).ToList(),
                   Total: _shoppingCart.Total(),
                   Subtotal: _shoppingCart.Subtotal(),
@@ -76,9 +81,9 @@ namespace MyWebShop.Controllers
              switch (command)
              {
                  case "Checkout":
-                     return RedirectToAction("SignupOrLogin", "Checkout");
+                     return RedirectToAction("Login", "Checkout");
                  case "ContinueShopping":
-                     break;
+                     return RedirectToAction("Index", "Home");
                  case "Update":
                      break;
              }

@@ -28,6 +28,9 @@ namespace MyWebShop
             manifest.DefineStyle("MyWebShop.Order").SetUrl("order.css").SetDependencies("MyWebShop.Common");
             manifest.DefineStyle("MyWebShop.SimulatedPSP").SetUrl("simulated-psp.css").SetDependencies("MyWebShop.Common");
             manifest.DefineStyle("MyWebShop.home").SetUrl("home.css");
+            manifest.DefineStyle("MyWebShop.Goods").SetUrl("Goods.css");
+            manifest.DefineStyle("MyWebShop.login").SetUrl("login.css");
+            manifest.DefineStyle("MyWebShop.Register").SetUrl("Register.css");
 
             manifest.DefineScript("MyWebShop.PageScroll").SetUrl("PageScroll.js").SetDependencies("jQuery");
             manifest.DefineScript("MyWebShop.hd").SetUrl("hd_js.js").SetDependencies("jQuery");

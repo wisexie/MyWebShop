@@ -90,12 +90,15 @@
     <Content Include="Assets\Styles.less" />
     <Content Include="images\29.png" />
     <Content Include="images\5sfd4f.png" />
+    <Content Include="images\9sg49g.png" />
     <Content Include="images\avatar_small.png" />
     <Content Include="images\cat_2014_02.jpg" />
     <Content Include="images\cat_2014_04.jpg" />
     <Content Include="images\cat_2014_06.jpg" />
     <Content Include="images\cat_2014_11.jpg" />
     <Content Include="images\cat_2014_20.jpg" />
+    <Content Include="images\d8h74df984h.png" />
+    <Content Include="images\fas54fas5f_03.jpg" />
     <Content Include="images\ibar_sprites.png" />
     <Content Include="images\Icon.png" />
     <Content Include="images\Icon2.png" />
@@ -108,8 +111,11 @@
     <Content Include="Scripts\shoppingcart.js" />
     <Content Include="Styles\checkout-summary.css" />
     <Content Include="Styles\common.css" />
+    <Content Include="Styles\Goods.css" />
     <Content Include="Styles\home.css" />
+    <Content Include="Styles\login.css" />
     <Content Include="Styles\order.css" />
+    <Content Include="Styles\Register.css" />
     <Content Include="Styles\shoppingcart.css" />
     <Content Include="Styles\shoppingcartwidget.css" />
     <Content Include="Styles\simulated-psp.css" />
@@ -136,6 +142,10 @@
       <Project>{66fccd76-2761-47e3-8d11-b45d0001ddaa}</Project>
       <Name>Orchard.Autoroute</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Orchard.Comments\Orchard.Comments.csproj">
+      <Project>{14c049fd-b35b-415a-a824-87f26b26e7fd}</Project>
+      <Name>Orchard.Comments</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Orchard.MediaLibrary\Orchard.MediaLibrary.csproj">
       <Project>{73a7688a-5bd3-4f7e-adfa-ce36c5a10e3b}</Project>
       <Name>Orchard.MediaLibrary</Name>
@@ -160,6 +170,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderAdminController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
+    <Compile Include="Controllers\ProductInfoController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Controllers\SimulatedPaymentServiceProviderController.cs" />
     <Compile Include="Drivers\MyShopHeaderWidgetPartDriver.cs" />
@@ -204,7 +215,9 @@
     <Compile Include="Services\IDateTimeService.cs" />
     <Compile Include="Services\IHomeService.cs" />
     <Compile Include="Services\IOrderService.cs" />
+    <Compile Include="Services\IProductInfoService.cs" />
     <Compile Include="Services\OrderService.cs" />
+    <Compile Include="Services\ProductInfoService.cs" />
     <Compile Include="Services\SimulatedPaymentServiceProvider.cs" />
     <Compile Include="ViewModels\AddressesViewModel.cs" />
     <Compile Include="ViewModels\AddressViewModel.cs" />
@@ -212,6 +225,7 @@
     <Compile Include="ViewModels\CustomersSearchViewModel.cs" />
     <Compile Include="ViewModels\EditOrderViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\PhoneSignupViewModel.cs" />
     <Compile Include="ViewModels\SignupViewModel.cs" />
     <Compile Include="ResourceManifest.cs" />
     <Compile Include="Services\IShoppingCart.cs" />
@@ -300,6 +314,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home.cshtml" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Views\ProductInfo.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

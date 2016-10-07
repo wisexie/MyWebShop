@@ -13,6 +13,7 @@ using MyWebShop.Services;
 using Orchard.ContentManagement.Records;
 using Orchard.MediaLibrary.Fields;
 using Orchard.Autoroute.Models;
+using Orchard.ContentManagement.Aspects;
 
 namespace MyWebShop.Controllers
 {
@@ -37,7 +38,7 @@ namespace MyWebShop.Controllers
                       Title: _services.ContentManager.GetItemMetadata(p).DisplayText,
                       Group:p.As<ContentItem>().TypeDefinition.DisplayName,
                       HomeImage: p.ContentItem.Parts.SelectMany(x => x.Fields.OfType<MediaLibraryPickerField>()).First().MediaParts.FirstOrDefault(),
-                      Link: p.ContentItem.As<AutoroutePart>().Path
+                      Link: p.ContentItem.As<IAliasAspect>().Path
                       )
                       ).OrderBy(x => x.Group).ToList()
                 );
