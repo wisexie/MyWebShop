@@ -1,4 +1,10 @@
-﻿
+﻿@using Orchard.ContentManagement
+@using Orchard.Search.Models
+@using Orchard.Search.ViewModels;
+@{
+    var routeValues = new RouteValueDictionary { { "area", "Orchard.Search" } };
+    var searchValue=((SearchViewModel)Model.ViewModel).Query;
+}
 <section class="header-bar clearfix">
     <div class="hTop-con">
         <ul class="brandLogo fl">
@@ -21,12 +27,13 @@
     <div class="hTop-con">
         <div class="aLogo fl"><a href="#" title=""><img src="@Href("~/Modules/MyWebShop/images/logo.png")" alt="" /></a></div>
         <div class="aSearch fl">
-
-            <input type="text" placeholder="请输入内容" class="aInpu1 border-colo" />
-
-            <input type="submit" class="aSub1 c-Icon background-colo border-colo" value="" />
+            @using (Html.BeginForm("Index", "Search", routeValues, FormMethod.Get, new RouteValueDictionary { { "class", "search-form" } }))
+            {
+                 @Html.TextBox("q", (SearchViewModel)Model.ViewModel.Query, new { placeholder = "请输入内容",@class="aInpu1 border-colo" })
+                <input type="submit" class="aSub1 c-Icon background-colo border-colo" value="" />
+                 @Html.Hidden("culture", WorkContext.CurrentCulture)
+            }
         </div>
         <div class="aBuyList fr border-colo"> <a id="cart" class="cart_link" href="#" title=""> <span class="caBox1 c-Icon"></span> <span class="caText border-colo">去购物车结算 </span> <span class="caNum" style="none"></span> <s class="icon_arrow_right c-Icon"></s> <i class="c-Icon icon_arrow">3</i> </a> </div>
     </div>
 </section>
-

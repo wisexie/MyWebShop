@@ -64,7 +64,7 @@ else
                                 <tr class="sppListBox_bar1">
                                     <td height="101"><a href="@item.Link" title="@title"><img src="@productImages" /></a></td>
                                     <td class="tl" height="102" style="vertical-align: text-top;">
-                                        <p style="padding-top:5px; text-align:left">@title</p>
+                                        <p style="padding-top:5px;">@title</p>
                                     </td>
                                     <td>
                                         &nbsp;
@@ -75,7 +75,7 @@ else
                                             <a class="reduce" href="javascript:;" id="goodsAmountDecreaseDetail">–</a>
                                             <input name="@string.Format("items[{0}].ProductId", i)" type="hidden" value="@product.Id" />
                                             <input name="@string.Format("items[{0}].IsRemoved", i)" type="hidden" value="false" />
-                                            <input name="@string.Format("items[{0}].Quantity", i)" id="goodsAmountDetail" type="number" min="1" maxlength="3" value="@quantity" />
+                                            <input name="@string.Format("items[{0}].Quantity", i)" id="goodsAmountDetail" type="number" value="@quantity" />
                                             <a class="add reduce" href="javascript:;" id="goodsAmountIncreaseDetail">+</a>
                                         </p>
                                     </td>
