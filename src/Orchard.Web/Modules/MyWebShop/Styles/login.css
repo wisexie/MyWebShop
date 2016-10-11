@@ -8,7 +8,7 @@
 
 .conLoad { width:100%; margin:30px auto 40px; text-align:center; height:42px; }
 
-.conLoad ul li { text-align:center; height:42px; line-height:42px; font-size:18px; color:#520062; font-weight:bold; width:49.3%; }
+.conLoad ul li { text-align:center; height:42px; line-height:42px; font-size:18px; color:#520062; font-weight:bold; width:47.3%; }
 
 .denLo-le { border-width:3px 3px 0 3px; border-style:solid; border-color:#520062; letter-spacing:1px; }
 
@@ -22,7 +22,7 @@
 
 .IrepZha-le { float:left; font-size:16px; color:#666; padding-left:15px; height:44px; line-height:44px; }
 
-.IrepZha-inp { float:left; font-size:16px; height:44px; width:369px; background:#fff; border:none 0; padding-left:10px; color:#8c1ea1 }
+.IrepZha-inp { float:left; font-size:16px; height:41px; width:369px; background:#fff; border:none 0; padding-left:10px; color:#8c1ea1 }
 
 .Irep-sbu { width:100%; margin:50px auto 20px; }
 
