@@ -55,30 +55,34 @@ namespace MyWebShop.Controllers
             var shape = _services.New.Checkout_Signup();
             return new ShapeResult(this, shape);
         }
-        [HttpPost]
+        [Themed, HttpPost]
         public ActionResult Signup(SignupViewModel signup)
         {
             if (!ModelState.IsValid)
                 return new ShapeResult(this, _services.New.Checkout_Signup(Signup: signup));
 
-            var customer = _customerService.CreateCustomer(signup.Email,"", signup.Password);
-
-            customer.Title = signup.Title;
+            var customer = _customerService.CreateCustomer(signup.Title,signup.Email, "", signup.Password);
 
             _authenticationService.SignIn(customer.User, true);
 
             return RedirectToAction("SelectAddress");
         }
-
-        [HttpPost]
-        public ActionResult PhoneSignup(PhoneSignupViewModel signup)
+        [Themed]
+        public ActionResult PhoneSignup()
+        {
+            var shape = _services.New.Checkout_Signup();
+            return new ShapeResult(this, shape);
+        }
+        [Themed, HttpPost]
+        public ActionResult PhoneSignup(PhoneSignupViewModel phoneSignup)
         {
             if (!ModelState.IsValid)
-                return new ShapeResult(this, _services.New.Checkout_Signup(PhoneSignup: signup));
+            {
+                var shape = _services.New.Checkout_Signup(PhoneSignup: phoneSignup);
+                return new ShapeResult(this, shape);
+            }
 
-            var customer = _customerService.CreateCustomer("",signup.PhoneNumber, signup.Password);
-
-            customer.Title = signup.Title;
+            var customer = _customerService.CreateCustomer(phoneSignup.Title,"", phoneSignup.PhoneNumber, phoneSignup.Password);
 
             _authenticationService.SignIn(customer.User, true);
 
@@ -102,7 +106,7 @@ namespace MyWebShop.Controllers
             // If no user was found, add a model error
             if (user == null)
             {
-                ModelState.AddModelError("Email", T("无效的密码或者是用户名").ToString());
+                ModelState.AddModelError("Email", T("无效的密码或者是手机号码").ToString());
             }
 
             // If there are any model errors, redisplay the login form

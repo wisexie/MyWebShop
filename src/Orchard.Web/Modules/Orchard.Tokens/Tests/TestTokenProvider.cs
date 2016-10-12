@@ -85,5 +85,10 @@ namespace Orchard.Tokens.Tests {
         public string Email { get; set; }
         public ContentItem ContentItem { get; set; }
         public int Id { get; set; }
+        public string PhoneNumber
+        {
+            get;
+            set;
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace MyWebShop.Services
 {
     public interface ICustomerService : IDependency
     {
-        CustomerPart CreateCustomer(string email, string phoneNumber, string password);
+        CustomerPart CreateCustomer(string title, string email, string phoneNumber, string password);
         AddressPart GetAddress(int customerId, string addressType);
 
         AddressPart GetAddress(int id);

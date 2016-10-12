@@ -1,7 +1,7 @@
 ﻿@using MyWebShop.ViewModels
 @{
-    var signup = (SignupViewModel)Model.Signup;
-    var phoneSignup = (PhoneSignupViewModel)Model.PhoneSignup;
+    var signup = Model.Signup==null?new SignupViewModel():(SignupViewModel)Model.Signup;
+    var phoneSignup = Model.PhoneSignup == null?new PhoneSignupViewModel(): (PhoneSignupViewModel)Model.PhoneSignup;
     Style.Require("MyWebShop.Register");
 }
 
@@ -28,19 +28,19 @@
                                 <div class="conIrep">
                                     <div class="Irep-zha">
                                         <span class="IrepZha-le">@Html.LabelFor(m => signup.Title, T("用户名 :"))</span>
-                                        <input class="IrepZha-inp" id="signup_Title" name="signup.Title" type="text" placeholder="请输入邮箱" />
+                                        @Html.TextBox("signup.Title", signup.Title, new { placeholder = "请输入用户名", @class = "IrepZha-inp" })
                                     </div>
                                     <div class="Irep-zha">
                                         <span class="IrepZha-le">@Html.LabelFor(m => signup.Email, T("邮箱 :"))</span>
-                                        <input class="IrepZha-inp" id="signup_Email" name="signup.Email" type="text" placeholder="请输入邮箱" />
+                                        @Html.TextBox("signup.Email", signup.Email, new { placeholder = "请输入邮箱", @class = "IrepZha-inp" })
                                     </div>
                                     <div class="Irep-zha">
                                         <span class="IrepZha-le">@Html.LabelFor(m => signup.Password, T("密码 :"))</span>
-                                        <input class="IrepZha-inp" id="signup_Password" name="signup.Password" type="password" placeholder="请输入密码" />
+                                        @Html.Password("signup.Password", signup.Password, new { placeholder = "请输入密码", @class = "IrepZha-inp" })
                                     </div>
                                     <div class="Irep-zha">
                                         <span class="IrepZha-le">@Html.LabelFor(m => signup.RepeatPassword, T("确认密码 :"))</span>
-                                        <input class="IrepZha-inp" id="signup_RepeatPassword" name="signup.RepeatPassword" type="password" placeholder="请输入密码" />
+                                        @Html.Password("signup.RepeatPassword", signup.RepeatPassword, new { placeholder = "请输入密码", @class = "IrepZha-inp" })
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
@@ -49,9 +49,9 @@
                                 </div>
                                 <div class="passLis">
                                     <div class="fl">
-                                        <div class="checkbox">@Html.CheckBoxFor(m => signup.AcceptTerms)</div>
+                                        <div class="checkbox">@Html.CheckBox("signup.AcceptTerms", new { @class = "passLis-che" })</div>
                                         <div class="label">
-                                            <label for="@Html.FieldIdFor(m => signup.AcceptTerms)">
+                                            <label for="@Html.FieldIdFor(m => signup.AcceptTerms)" class="passLis-lab">
                                                 @Html.Raw(T("我已阅读并接受<a href=\"{0}\" target=\"_blank\">馋嘴猫条款</a>", "#").ToString())
                                             </label>
                                         </div>
@@ -66,25 +66,26 @@
                             {
                                 <div class="conIrep">
                                     <div class="Irep-zha">
-                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.Title, T("用户名")) :</span>
-                                        <input class="IrepZha-inp" id="signup_Title" name="signup.Title" type="text" placeholder="请输入邮箱" />
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.Title, T("用户名 :")) </span>
+                                        @Html.TextBox("phoneSignup.Title", phoneSignup.Title, new { placeholder = "用户名", @class = "IrepZha-inp" })
                                     </div>
                                     <div class="Irep-zha">
-                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.PhoneNumber, T("手机号码")) :</span>
-                                        <input class="IrepZha-inp" type="text" placeholder="请输手机号码（仅限中国大陆）" id="phoneSignup_PhoneNumber" name="phoneSignup.PhoneNumber" />
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.PhoneNumber, T("手机号码 :"))</span>
+                                        @Html.TextBox("phoneSignup.PhoneNumber", phoneSignup.PhoneNumber, new { placeholder = "请输手机号码（仅限中国大陆）", @class = "IrepZha-inp" })
                                         <a class="IrepZha-a" href="javascript:void(0)">获取验证码</a>
                                     </div>
                                     <div class="Irep-zha">
-                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.MessageCode, T("手机验证码")) :</span>
-                                        <input class="IrepZha-inp" type="text" placeholder="请输入验证码" id="phoneSignup_MessageCode" name="phoneSignup.MessageCode" />
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.MessageCode, T("手机验证码 :"))</span>
+                                        @Html.TextBox("phoneSignup.MessageCode", phoneSignup.MessageCode, new { placeholder = "请输入验证码", @class = "IrepZha-inp" })
                                     </div>
                                     <div class="Irep-zha">
-                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.Password, T("密码")) :</span>
-                                        <input class="IrepZha-inp" id="phoneSignup_Password" name="phoneSignup.Password" type="password" placeholder="请输入密码" />
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.Password, T("密码 :"))</span>
+                                        @Html.Password("phoneSignup.Password", phoneSignup.Password, new { placeholder = "请输入密码", @class = "IrepZha-inp" })
                                     </div>
                                     <div class="Irep-zha">
-                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.RepeatPassword, T("确认密码")) :</span>
-                                        <input class="IrepZha-inp" id="phoneSignup_RepeatPassword" name="phoneSignup.RepeatPassword" type="password" placeholder="请输入密码" />
+                                        <span class="IrepZha-le">@Html.LabelFor(m => phoneSignup.RepeatPassword, T("确认密码 :"))</span>
+                                        @Html.Password("phoneSignup.RepeatPassword", phoneSignup.RepeatPassword, new { placeholder = "请输入密码", @class = "IrepZha-inp" })
+
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
@@ -93,9 +94,9 @@
                                 </div>
                                 <div class="passLis">
                                     <div class="fl">
-                                        <div class="checkbox">@Html.CheckBoxFor(m => phoneSignup.AcceptTerms)</div>
+                                        <div class="checkbox">@Html.CheckBox("phoneSignup.AcceptTerms", new { @class = "passLis-che" })</div>
                                         <div class="label">
-                                            <label for="@Html.FieldIdFor(m => phoneSignup.AcceptTerms)">
+                                            <label for="@Html.FieldIdFor(m => phoneSignup.AcceptTerms)" class="passLis-lab">
                                                 @Html.Raw(T("我已阅读并接受<a href=\"{0}\" target=\"_blank\">馋嘴猫条款</a>", "#").ToString())
                                             </label>
                                         </div>

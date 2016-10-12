@@ -40,7 +40,10 @@ namespace Orchard.Tokens.Providers {
             public string Email {
                 get { return string.Empty; }
             }
-
+            public string PhoneNumber
+            {
+                get { return string.Empty; }
+            }
             public ContentManagement.ContentItem ContentItem {
                 get { return null; }
             }

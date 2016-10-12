@@ -76,5 +76,10 @@ namespace Orchard.Users.Models {
             get { return Retrieve(x => x.LastLogoutUtc); }
             set { Store(x => x.LastLogoutUtc, value); }
         }
+        public string PhoneNumber
+        {
+            get { return Retrieve(x => x.PhoneNumber); }
+            set { Store(x => x.PhoneNumber, value); }
+        }
     }
 }

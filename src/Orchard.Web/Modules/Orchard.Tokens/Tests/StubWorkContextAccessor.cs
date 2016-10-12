@@ -125,6 +125,10 @@ namespace Orchard.Tokens.Tests {
                 public string Email {
                     get { return "Fake@fake.com"; }
                 }
+                public string PhoneNumber
+                {
+                    get { return string.Empty; }
+                }
             }
 
             public override T Resolve<T>() {

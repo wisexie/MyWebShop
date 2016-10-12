@@ -24,11 +24,11 @@ namespace MyWebShop.Services
             _clock = clock;
         }
 
-        public CustomerPart CreateCustomer(string email,string phoneNumber, string password)
+        public CustomerPart CreateCustomer(string title,string email,string phoneNumber, string password)
         {
             // New up a new content item of type "Customer"
             var customer = _orchardServices.ContentManager.New("Customer");
-
+           
             // Cast the customer to a UserPart
             var userPart = customer.As<UserPart>();
 
@@ -36,14 +36,16 @@ namespace MyWebShop.Services
             var customerPart = customer.As<CustomerPart>();
 
             // Set some properties of the customer content item (via UserPart and CustomerPart)
-            userPart.UserName = email;
+            userPart.UserName = string.IsNullOrEmpty(email) ? phoneNumber : email;
             userPart.Email = email;
-            userPart.NormalizedUserName = phoneNumber;
+            userPart.NormalizedUserName = string.IsNullOrEmpty(email) ? phoneNumber : email;
             userPart.Record.HashAlgorithm = "SHA1";
             userPart.Record.RegistrationStatus = UserStatus.Approved;
             userPart.Record.EmailStatus = UserStatus.Approved;
+            userPart.Record.PhoneNumber = phoneNumber;
 
             customerPart.CreatedUtc = _clock.UtcNow;
+            customerPart.Title = title;
 
             // Use Ochard's MembershipService to set the password of our new user
             _membershipService.SetPassword(userPart, password);

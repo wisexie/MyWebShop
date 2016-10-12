@@ -19,5 +19,7 @@ namespace Orchard.Users.Models {
         public virtual DateTime? CreatedUtc { get; set; }
         public virtual DateTime? LastLoginUtc { get; set; }
         public virtual DateTime? LastLogoutUtc { get; set; }
+
+        public virtual string PhoneNumber { get; set; }
     }
 }

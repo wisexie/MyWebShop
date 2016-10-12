@@ -4,7 +4,7 @@
 
 .alLogo { float:left; width:355px; }
 
-.alLoad { float:left; border-width:1px 1px 1px 0; border-style:solid; border-color:#ccc; height:560px }
+.alLoad { float:left; border-width:1px 1px 1px 0; border-style:solid; border-color:#ccc; height:660px }
 
 .conLoad { width:100%; margin:30px auto 0; text-align:center; height:45px; }
 
@@ -68,7 +68,8 @@
 
 .Tab-Irep { width:440px; overflow:hidden; margin: 0 auto; }
 
-.Tab-Irep-phem { width:100%; height:442px; }
+.Tab-Irep-phem { width:100%; height:542px; }
+
 
 .Irep-passfind { width:100%; margin:30px auto }
 

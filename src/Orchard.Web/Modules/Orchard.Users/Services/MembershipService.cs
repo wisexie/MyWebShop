@@ -145,6 +145,9 @@ namespace Orchard.Users.Services {
             if (user == null)
                 user = _orchardServices.ContentManager.Query<UserPart, UserPartRecord>().Where(u => u.Email == lowerName).List().FirstOrDefault();
 
+            if (user == null && lowerName != "")
+                user =_orchardServices.ContentManager.Query<UserPart, UserPartRecord>().Where(u => u.PhoneNumber == lowerName).List().FirstOrDefault();
+
             if ( user == null || ValidatePassword(user.As<UserPart>(), password) == false )
                 return null;
 
