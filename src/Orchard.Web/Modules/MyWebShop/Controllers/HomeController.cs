@@ -32,8 +32,8 @@ namespace MyWebShop.Controllers
         public ActionResult Index()
         {
             var shape = _services.New.Home(
-                Products: _services.ContentManager.Query<ProductPart, ProductPartRecord>()
-                .List().Select(p => _services.New.ProductPart(
+                Products: _homeServices.GetHomeProduct()
+                .Select(p => _services.New.ProductPart(
                       ProductPart: p,
                       Title: _services.ContentManager.GetItemMetadata(p).DisplayText,
                       Group:p.As<ContentItem>().TypeDefinition.DisplayName,

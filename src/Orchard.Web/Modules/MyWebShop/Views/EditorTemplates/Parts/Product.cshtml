@@ -15,5 +15,9 @@
         @Html.EditorFor(x => x.UnitPrice)
         @Html.ValidationMessageFor(x => x.UnitPrice)
     </div>
+    <div class="editor-label">@Html.LabelFor(x => x.IsShowAtHome)</div>
+    <div class="editor-field">
+        @Html.EditorFor(x => x.IsShowAtHome)
+    </div>
     <div class="hint">Enter the sales price per unit</div>
 </fieldset>

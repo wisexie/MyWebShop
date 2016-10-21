@@ -259,5 +259,16 @@ namespace MyWebShop
 
             return 12;
         }
+        public int UpdateFrom12()
+        {
+
+            SchemaBuilder.AlterTable("ProductPartRecord", table => table
+
+                  // Create the "Sku" column and specify a maximum length of 50 characters
+                  .AddColumn<bool>("IsShowAtHome")
+                  );
+
+            return 13;
+        }
     }
 }

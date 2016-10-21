@@ -20,12 +20,27 @@ namespace MyWebShop
         {
             return new[] {
              new RouteDescriptor {
-                         Priority = 98,
+                         Priority = 97,
                         Route = new Route(
                             "Product/{category}/{title}",
                             new RouteValueDictionary {
                                                         {"area", "MyWebShop"},
                                                         {"controller", "ProductInfo"},
+                                                        {"action", "Index"}
+                                                    },
+                            new RouteValueDictionary (),
+                            new RouteValueDictionary {
+                                                        {"area", "MyWebShop"}
+                                                    },
+                            new MvcRouteHandler())
+                    },
+                         new RouteDescriptor {
+                         Priority = 98,
+                        Route = new Route(
+                            "Category/{title}",
+                            new RouteValueDictionary {
+                                                        {"area", "MyWebShop"},
+                                                        {"controller", "CategoryInfo"},
                                                         {"action", "Index"}
                                                     },
                             new RouteValueDictionary (),

@@ -10,6 +10,7 @@ using System.Web;
 using Orchard.ContentManagement;
 using Orchard.Core.Title.Models;
 using Orchard.ContentManagement.Records;
+using Orchard.Core.Settings.Metadata.Records;
 
 namespace MyWebShop.Services
 {
@@ -20,9 +21,9 @@ namespace MyWebShop.Services
         {
             _services = services;
         }
-        public IEnumerable<ProductPart> GetHomeProductCategory()
+        public IEnumerable<ProductPart> GetHomeProduct()
         {
-            return _services.ContentManager.Query<ProductPart, ProductPartRecord>()
+            return _services.ContentManager.Query<ProductPart, ProductPartRecord>().Where(x=>x.IsShowAtHome)
                 .List();
         }
     }

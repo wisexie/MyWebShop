@@ -20,5 +20,11 @@ namespace MyWebShop.Models
             set { Record.Sku = value; }
         }
 
+        public bool IsShowAtHome
+        {
+            get { return Record.IsShowAtHome; }
+            set { Record.IsShowAtHome = value; }
+        }
+
     }
 }

@@ -10,5 +10,7 @@ namespace MyWebShop.Models
     {
         public virtual decimal UnitPrice { get; set; }
         public virtual string Sku { get; set; }
+
+        public virtual bool IsShowAtHome { get; set; }
     }
 }

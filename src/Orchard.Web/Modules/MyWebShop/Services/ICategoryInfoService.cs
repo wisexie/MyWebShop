@@ -1,4 +1,5 @@
 ﻿using MyWebShop.Models;
+using MyWebShop.ViewModels;
 using Orchard;
 using System;
 using System.Collections.Generic;
@@ -8,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace MyWebShop.Services
 {
-    public interface IHomeService : IDependency 
+    public interface ICategoryInfoService : IDependency
     {
-        IEnumerable<ProductPart> GetHomeProduct();
+        IList<ProductListViewModel> GetProductByType(string contentType);
     }
 }
