@@ -3,7 +3,7 @@ Themes:
 Modules: 
 Name: Default
 DataProvider: SqlServer
-DataConnectionString: Data Source=sql.web25.vhostgo.com;Initial Catalog=dwtree;User ID=dwtree;Password=6624957   
+DataConnectionString: Data Source=sql.web25.vhostgo.com;Initial Catalog=dwtree;User ID=dwtree;Password=123456  
 DataTablePrefix: null
 RequestUrlHost: null
 RequestUrlPrefix: null
